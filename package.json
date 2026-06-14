@@ -1,0 +1,41 @@
+{
+  "name": "onewaysolutions-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/next-run.mjs dev --webpack",
+    "build": "npm run check:env && node scripts/next-run.mjs build --webpack",
+    "start": "node scripts/next-run.mjs start",
+    "lint": "node scripts/next-run.mjs lint",
+    "typecheck": "tsc --noEmit",
+    "generate:catalog": "node scripts/generate-catalog.mjs",
+    "check:env": "node scripts/check-env.mjs",
+    "qa:browser": "node scripts/qa-browser.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "latest",
+    "clsx": "latest",
+    "lucide-react": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "overrides": {
+    "postcss": "^8.5.15"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "^10.4.20",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "playwright": "^1.60.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^3.4.17",
+    "typescript": "latest"
+  },
+  "optionalDependencies": {
+    "@next/swc-wasm-nodejs": "^16.2.9"
+  }
+}

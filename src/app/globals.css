@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --background: 0.975 0.008 244;
+  --foreground: 0.205 0.05 251;
+  --surface: 0.995 0.005 244;
+  --muted: 0.93 0.014 244;
+  --border: 0.86 0.018 244;
+  --primary: 0.26 0.075 251;
+  --accent: 0.65 0.17 58;
+  --steel: 0.49 0.035 244;
+  --success: 0.57 0.11 154;
+  --warning: 0.72 0.14 78;
+  --danger: 0.57 0.16 28;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100dvh;
+  margin: 0;
+  background:
+    linear-gradient(180deg, oklch(var(--background)), oklch(0.95 0.012 244)),
+    oklch(var(--background));
+  color: oklch(var(--foreground));
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:focus-visible {
+  outline: 3px solid oklch(var(--accent));
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.industrial-grid {
+  background-image:
+    linear-gradient(oklch(var(--primary) / 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, oklch(var(--primary) / 0.06) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.container-shell {
+  width: min(100% - 32px, 1180px);
+  margin-inline: auto;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
