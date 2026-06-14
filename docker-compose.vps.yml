@@ -1,0 +1,35 @@
+services:
+  web:
+    image: ghcr.io/mhhmod/onewaysolutions-web:latest
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      HOSTNAME: 0.0.0.0
+      PORT: 3000
+      NEXT_PUBLIC_SUPABASE_URL: ${NEXT_PUBLIC_SUPABASE_URL}
+      NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY}
+      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL}
+      NEXT_PUBLIC_ADMIN_URL: ${NEXT_PUBLIC_ADMIN_URL}
+    expose:
+      - "3000"
+    networks:
+      - proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=root_default"
+      - "traefik.http.services.onewaysolutions.loadbalancer.server.port=3000"
+      - "traefik.http.routers.onewaysolutions.rule=Host(`onewaysolutions-eg.com`) || Host(`www.onewaysolutions-eg.com`)"
+      - "traefik.http.routers.onewaysolutions.entrypoints=websecure"
+      - "traefik.http.routers.onewaysolutions.tls=true"
+      - "traefik.http.routers.onewaysolutions.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.onewaysolutions.service=onewaysolutions"
+      - "traefik.http.routers.onewaysolutions-admin.rule=Host(`admin.onewaysolutions-eg.com`)"
+      - "traefik.http.routers.onewaysolutions-admin.entrypoints=websecure"
+      - "traefik.http.routers.onewaysolutions-admin.tls=true"
+      - "traefik.http.routers.onewaysolutions-admin.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.onewaysolutions-admin.service=onewaysolutions"
+
+networks:
+  proxy:
+    external: true
+    name: root_default
