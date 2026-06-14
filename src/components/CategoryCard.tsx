@@ -9,14 +9,14 @@ export function CategoryCard({ category }: { category: Category }) {
       href={`/products/${category.slug}`}
       className="group grid overflow-hidden rounded-lg border border-border bg-surface shadow-sm transition hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-industrial"
     >
-      <div className="relative aspect-[4/3] bg-muted">
+      <div className="relative aspect-[4/3] bg-white">
         {category.imagePath ? (
           <Image
             src={category.imagePath}
             alt={category.name}
             fill
             sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-            className="object-cover transition duration-300 group-hover:scale-[1.03]"
+            className="object-contain p-3 transition duration-300 group-hover:scale-[1.03]"
           />
         ) : null}
         <span className="absolute start-3 top-3 rounded-full bg-white/92 px-3 py-1 text-xs font-bold text-primary shadow-sm">

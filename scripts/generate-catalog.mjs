@@ -35,6 +35,31 @@ const categoryDescriptions = {
   terminal_blocks_instruments: "Terminal blocks, meters, timers, transducers, and measuring instruments."
 };
 
+const categoryImageOverrides = {
+  brady_labels_marking: "p50_img06_brady_labels_marking_474x312.jpeg",
+  cable_trays: "p34_img02_cable_trays_669x465.png",
+  distribution_panels: "p06_img07_distribution_panels_759x433.jpeg",
+  electrical_accessories: "p57_img11_electrical_accessories_600x600.jpeg",
+  fire_fighting_cabinets: "p26_img03_fire_fighting_cabinets_1309x984.jpeg",
+  industrial_sockets_contactors: "p86_img04_industrial_sockets_contactors_477x304.jpeg",
+  locker_cabinets: "p33_img03_locker_cabinets_502x628.jpeg",
+  safety_products: "p96_img03_safety_products_1401x990.jpeg",
+  smart_panels_ont_onu: "p20_img03_smart_panels_ont_onu_471x460.jpeg",
+  solar_lighting: "p41_img04_solar_lighting_452x324.jpeg",
+  terminal_blocks_instruments: "p76_img01_terminal_blocks_instruments_533x623.jpeg"
+};
+
+const excludedProductImages = new Set([
+  "brady_labels_marking/p50_img05_brady_labels_marking_853x736.jpeg",
+  "cable_trays/p34_img07_cable_trays_993x149.png",
+  "electrical_accessories/p57_img01_electrical_accessories_709x389.png",
+  "electrical_accessories/p57_img10_electrical_accessories_541x336.jpeg",
+  "fire_fighting_cabinets/p25_img04_fire_fighting_cabinets_513x513.jpeg",
+  "fire_fighting_cabinets/p25_img07_fire_fighting_cabinets_948x180.png",
+  "fire_fighting_cabinets/p25_img08_fire_fighting_cabinets_730x409.jpeg",
+  "fire_fighting_cabinets/p27_img01_fire_fighting_cabinets_950x950.jpeg"
+]);
+
 const imageExtensions = new Set([".jpg", ".jpeg", ".png", ".webp", ".gif"]);
 
 function slugify(value) {
@@ -64,6 +89,13 @@ function parseImageMeta(filename) {
   };
 }
 
+function isDisplayableProductImage(filename) {
+  const meta = parseImageMeta(filename);
+  const wideRatio = Math.max(meta.width / meta.height, meta.height / meta.width);
+
+  return wideRatio <= 4.2 && meta.width >= 180 && meta.height >= 180;
+}
+
 function sql(value) {
   if (value === null || value === undefined) return "null";
   if (typeof value === "number") return Number.isFinite(value) ? String(value) : "null";
@@ -88,7 +120,12 @@ for (const [categoryIndex, folder] of folders.entries()) {
   const files = readdirSync(folderPath, { withFileTypes: true })
     .filter((entry) => entry.isFile() && imageExtensions.has(path.extname(entry.name).toLowerCase()))
     .map((entry) => entry.name)
+    .filter((filename) => !excludedProductImages.has(`${folder}/${filename}`))
+    .filter(isDisplayableProductImage)
     .sort();
+  const categoryImage = categoryImageOverrides[folder] && files.includes(categoryImageOverrides[folder])
+    ? categoryImageOverrides[folder]
+    : files[0];
 
   const category = {
     id: slugify(folder),
@@ -96,7 +133,7 @@ for (const [categoryIndex, folder] of folders.entries()) {
     sourceFolder: folder,
     name: titleFromCategory(folder),
     description: categoryDescriptions[folder] ?? "Industrial catalog products and references.",
-    imagePath: files[0] ? publicPath(path.join(folderPath, files[0])) : null,
+    imagePath: categoryImage ? publicPath(path.join(folderPath, categoryImage)) : null,
     productCount: files.length,
     sortOrder: categoryIndex
   };

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, BadgeCheck, Building2, FileText, ShieldCheck, Zap } from "lucide-react";
+import { ArrowRight, Building2, FileText, ShieldCheck, Zap } from "lucide-react";
 import { CategoryCard } from "@/components/CategoryCard";
 import { ProductCard } from "@/components/ProductCard";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -25,40 +25,52 @@ const capabilities = [
   }
 ];
 
+const heroTiles = [
+  {
+    src: "/catalog/02_ecommerce_candidate_images/distribution_panels/p06_img07_distribution_panels_759x433.jpeg",
+    alt: "Electrical distribution panels ready for project installation",
+    label: "Distribution panels",
+    featured: true
+  },
+  {
+    src: "/catalog/02_ecommerce_candidate_images/cable_trays/p34_img02_cable_trays_669x465.png",
+    alt: "Galvanized cable tray fitting",
+    label: "Cable trays"
+  },
+  {
+    src: "/catalog/02_ecommerce_candidate_images/electrical_accessories/p57_img11_electrical_accessories_600x600.jpeg",
+    alt: "Assorted colored cable ties",
+    label: "Electrical accessories"
+  },
+  {
+    src: "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p26_img03_fire_fighting_cabinets_1309x984.jpeg",
+    alt: "Red fire fighting cabinets in production",
+    label: "Fire cabinets"
+  }
+];
+
 export default function HomePage() {
   const categories = getCategories();
   const featuredProducts = getFeaturedProducts(8);
   const totals = getCatalogTotals();
   const catalogPages = getCatalogPages().slice(5, 9);
-  const heroProduct = featuredProducts[0];
 
   return (
     <>
       <SiteHeader />
       <main>
         <section className="relative isolate overflow-hidden border-b border-primary/20 bg-primary text-white">
-          <div className="absolute inset-0 -z-10">
-            {heroProduct ? (
-              <Image
-                src={heroProduct.imagePath}
-                alt={heroProduct.name}
-                fill
-                priority
-                sizes="100vw"
-                className="object-cover opacity-22"
-              />
-            ) : null}
-            <div className="absolute inset-0 bg-primary/78" />
-          </div>
-          <div className="container-shell grid min-h-[72svh] content-center gap-10 py-16 lg:grid-cols-[minmax(0,0.95fr)_minmax(320px,0.55fr)] lg:items-center">
-            <div className="max-w-4xl">
+          <div className="industrial-grid absolute inset-0 -z-10 opacity-35" />
+          <div className="absolute inset-x-0 bottom-0 -z-10 h-32 bg-background" />
+          <div className="container-shell grid min-h-[72svh] content-center gap-10 py-14 lg:grid-cols-[minmax(0,0.9fr)_minmax(360px,0.7fr)] lg:items-center">
+            <div className="max-w-4xl pb-4">
               <p className="text-sm font-black uppercase tracking-[0.18em] text-accent">
                 Industrial catalog and quote requests
               </p>
-              <h1 className="mt-5 max-w-4xl text-5xl font-black leading-[0.98] tracking-normal md:text-7xl">
+              <h1 className="mt-5 max-w-4xl text-5xl font-black leading-[0.98] tracking-normal text-white md:text-7xl">
                 One Way Solutions
               </h1>
-              <p className="mt-6 max-w-2xl text-lg leading-8 text-white/82">
+              <p className="mt-6 max-w-2xl text-lg leading-8 text-white/86">
                 Browse electrical, solar, fire safety, telecom, and control products. Select what your project needs and send one quote request with your details.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
@@ -77,32 +89,43 @@ export default function HomePage() {
                   <FileText size={18} aria-hidden="true" />
                 </Link>
               </div>
+              <dl className="mt-8 grid max-w-2xl grid-cols-3 overflow-hidden rounded-lg border border-white/18 bg-white/6">
+                <div className="border-e border-white/14 p-4">
+                  <dt className="text-xs font-bold uppercase tracking-[0.12em] text-white/62">Products</dt>
+                  <dd className="mt-1 text-2xl font-black text-white">{totals.products}</dd>
+                </div>
+                <div className="border-e border-white/14 p-4">
+                  <dt className="text-xs font-bold uppercase tracking-[0.12em] text-white/62">Categories</dt>
+                  <dd className="mt-1 text-2xl font-black text-white">{totals.categories}</dd>
+                </div>
+                <div className="p-4">
+                  <dt className="text-xs font-bold uppercase tracking-[0.12em] text-white/62">Pages</dt>
+                  <dd className="mt-1 text-2xl font-black text-white">{totals.catalogPages}</dd>
+                </div>
+              </dl>
             </div>
-            <div className="grid gap-3 rounded-lg border border-white/18 bg-white/8 p-4 backdrop-blur-sm">
-              <div className="relative aspect-[4/3] overflow-hidden rounded-md bg-white">
-                {heroProduct ? (
-                  <Image
-                    src={heroProduct.imagePath}
-                    alt={heroProduct.name}
-                    fill
-                    sizes="(min-width: 1024px) 38vw, 92vw"
-                    className="object-contain p-4"
-                  />
-                ) : null}
-              </div>
-              <div className="grid grid-cols-3 gap-2 text-center">
-                <div className="rounded-md bg-white/10 p-3">
-                  <p className="text-2xl font-black">{totals.products}</p>
-                  <p className="text-xs text-white/72">Products</p>
-                </div>
-                <div className="rounded-md bg-white/10 p-3">
-                  <p className="text-2xl font-black">{totals.categories}</p>
-                  <p className="text-xs text-white/72">Categories</p>
-                </div>
-                <div className="rounded-md bg-white/10 p-3">
-                  <p className="text-2xl font-black">{totals.catalogPages}</p>
-                  <p className="text-xs text-white/72">Pages</p>
-                </div>
+            <div className="grid gap-3">
+              <div className="grid gap-3 sm:grid-cols-2">
+                {heroTiles.map((tile) => (
+                  <article
+                    key={tile.src}
+                    className={`relative overflow-hidden rounded-lg border border-white/18 bg-white shadow-industrial ${
+                      tile.featured ? "aspect-[16/9] sm:col-span-2" : "aspect-[4/3]"
+                    }`}
+                  >
+                    <Image
+                      src={tile.src}
+                      alt={tile.alt}
+                      fill
+                      priority={tile.featured}
+                      sizes={tile.featured ? "(min-width: 1024px) 44vw, 92vw" : "(min-width: 1024px) 22vw, 46vw"}
+                      className="object-contain p-3"
+                    />
+                    <span className="absolute bottom-3 start-3 rounded-md bg-primary px-3 py-1.5 text-xs font-black text-white shadow-sm">
+                      {tile.label}
+                    </span>
+                  </article>
+                ))}
               </div>
             </div>
           </div>
@@ -194,7 +217,7 @@ export default function HomePage() {
                   </div>
                   <div className="border-t border-border p-3 text-primary">
                     <p className="text-sm font-bold">{page.title}</p>
-                    <p className="mt-1 text-xs text-steel">Source page {page.pageNumber}</p>
+                    <p className="mt-1 text-xs text-steel">Technical catalog reference</p>
                   </div>
                 </article>
               ))}

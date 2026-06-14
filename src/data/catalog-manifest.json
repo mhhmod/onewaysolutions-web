@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T20:49:30.079Z",
+  "generatedAt": "2026-06-14T23:12:19.269Z",
   "categories": [
     {
       "id": "brady-labels-marking",
@@ -7,8 +7,8 @@
       "sourceFolder": "brady_labels_marking",
       "name": "Brady Labels & Marking",
       "description": "Cable identification, labels, marking products, and electrical labeling systems.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p50_img05_brady_labels_marking_853x736.jpeg",
-      "productCount": 18,
+      "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p50_img06_brady_labels_marking_474x312.jpeg",
+      "productCount": 16,
       "sortOrder": 0
     },
     {
@@ -17,8 +17,8 @@
       "sourceFolder": "cable_trays",
       "name": "Cable Trays",
       "description": "Cable tray fittings and metal routing systems for industrial installations.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/cable_trays/p34_img01_cable_trays_515x384.jpeg",
-      "productCount": 14,
+      "imagePath": "/catalog/02_ecommerce_candidate_images/cable_trays/p34_img02_cable_trays_669x465.png",
+      "productCount": 13,
       "sortOrder": 1
     },
     {
@@ -27,7 +27,7 @@
       "sourceFolder": "distribution_panels",
       "name": "Electric Distribution Panels",
       "description": "Designed and assembled electrical distribution, control, and ATS panels.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/distribution_panels/p06_img01_distribution_panels_562x317.jpeg",
+      "imagePath": "/catalog/02_ecommerce_candidate_images/distribution_panels/p06_img07_distribution_panels_759x433.jpeg",
       "productCount": 45,
       "sortOrder": 2
     },
@@ -37,8 +37,8 @@
       "sourceFolder": "electrical_accessories",
       "name": "Electrical Accessories",
       "description": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p57_img01_electrical_accessories_709x389.png",
-      "productCount": 28,
+      "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p57_img11_electrical_accessories_600x600.jpeg",
+      "productCount": 23,
       "sortOrder": 3
     },
     {
@@ -47,8 +47,8 @@
       "sourceFolder": "fire_fighting_cabinets",
       "name": "Fire Fighting Cabinets",
       "description": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p25_img04_fire_fighting_cabinets_513x513.jpeg",
-      "productCount": 16,
+      "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p26_img03_fire_fighting_cabinets_1309x984.jpeg",
+      "productCount": 12,
       "sortOrder": 4
     },
     {
@@ -87,7 +87,7 @@
       "sourceFolder": "smart_panels_ont_onu",
       "name": "Smart Panels (ONU / ONT)",
       "description": "Smart telecom panels and ONU/ONT enclosure products.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/smart_panels_ont_onu/p19_img03_smart_panels_ont_onu_772x880.jpeg",
+      "imagePath": "/catalog/02_ecommerce_candidate_images/smart_panels_ont_onu/p20_img03_smart_panels_ont_onu_471x460.jpeg",
       "productCount": 14,
       "sortOrder": 8
     },
@@ -98,7 +98,7 @@
       "name": "Solar Lighting",
       "description": "Solar street lighting, flood lights, and solar-powered outdoor lighting systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/solar_lighting/p41_img04_solar_lighting_452x324.jpeg",
-      "productCount": 26,
+      "productCount": 22,
       "sortOrder": 9
     },
     {
@@ -107,34 +107,18 @@
       "sourceFolder": "terminal_blocks_instruments",
       "name": "Terminal Blocks & Instruments",
       "description": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p74_img01_terminal_blocks_instruments_1053x120.png",
-      "productCount": 21,
+      "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p76_img01_terminal_blocks_instruments_533x623.jpeg",
+      "productCount": 18,
       "sortOrder": 10
     }
   ],
   "products": [
     {
-      "id": "brady-labels-marking-p50-img05-brady-labels-marking-853x736",
-      "slug": "brady-labels-marking-p50-img05-brady-labels-marking-853x736",
-      "categorySlug": "brady-labels-marking",
-      "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 01",
-      "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p50_img05_brady_labels_marking_853x736.jpeg",
-      "sourceFolder": "brady_labels_marking",
-      "sourceFilename": "p50_img05_brady_labels_marking_853x736.jpeg",
-      "sourcePage": 50,
-      "imageNumber": 5,
-      "width": 853,
-      "height": 736,
-      "sortOrder": 0
-    },
-    {
       "id": "brady-labels-marking-p50-img06-brady-labels-marking-474x312",
       "slug": "brady-labels-marking-p50-img06-brady-labels-marking-474x312",
       "categorySlug": "brady-labels-marking",
       "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 02",
+      "name": "Brady Labels & Marking 01",
       "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p50_img06_brady_labels_marking_474x312.jpeg",
       "sourceFolder": "brady_labels_marking",
@@ -143,14 +127,14 @@
       "imageNumber": 6,
       "width": 474,
       "height": 312,
-      "sortOrder": 1
+      "sortOrder": 0
     },
     {
       "id": "brady-labels-marking-p51-img02-brady-labels-marking-495x462",
       "slug": "brady-labels-marking-p51-img02-brady-labels-marking-495x462",
       "categorySlug": "brady-labels-marking",
       "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 03",
+      "name": "Brady Labels & Marking 02",
       "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p51_img02_brady_labels_marking_495x462.jpeg",
       "sourceFolder": "brady_labels_marking",
@@ -159,14 +143,14 @@
       "imageNumber": 2,
       "width": 495,
       "height": 462,
-      "sortOrder": 2
+      "sortOrder": 1
     },
     {
       "id": "brady-labels-marking-p51-img03-brady-labels-marking-526x284",
       "slug": "brady-labels-marking-p51-img03-brady-labels-marking-526x284",
       "categorySlug": "brady-labels-marking",
       "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 04",
+      "name": "Brady Labels & Marking 03",
       "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p51_img03_brady_labels_marking_526x284.jpeg",
       "sourceFolder": "brady_labels_marking",
@@ -175,14 +159,14 @@
       "imageNumber": 3,
       "width": 526,
       "height": 284,
-      "sortOrder": 3
+      "sortOrder": 2
     },
     {
       "id": "brady-labels-marking-p51-img04-brady-labels-marking-490x262",
       "slug": "brady-labels-marking-p51-img04-brady-labels-marking-490x262",
       "categorySlug": "brady-labels-marking",
       "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 05",
+      "name": "Brady Labels & Marking 04",
       "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p51_img04_brady_labels_marking_490x262.jpeg",
       "sourceFolder": "brady_labels_marking",
@@ -191,14 +175,14 @@
       "imageNumber": 4,
       "width": 490,
       "height": 262,
-      "sortOrder": 4
+      "sortOrder": 3
     },
     {
       "id": "brady-labels-marking-p51-img05-brady-labels-marking-450x300",
       "slug": "brady-labels-marking-p51-img05-brady-labels-marking-450x300",
       "categorySlug": "brady-labels-marking",
       "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 06",
+      "name": "Brady Labels & Marking 05",
       "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p51_img05_brady_labels_marking_450x300.jpeg",
       "sourceFolder": "brady_labels_marking",
@@ -207,14 +191,14 @@
       "imageNumber": 5,
       "width": 450,
       "height": 300,
-      "sortOrder": 5
+      "sortOrder": 4
     },
     {
       "id": "brady-labels-marking-p51-img06-brady-labels-marking-625x296",
       "slug": "brady-labels-marking-p51-img06-brady-labels-marking-625x296",
       "categorySlug": "brady-labels-marking",
       "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 07",
+      "name": "Brady Labels & Marking 06",
       "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p51_img06_brady_labels_marking_625x296.jpeg",
       "sourceFolder": "brady_labels_marking",
@@ -223,30 +207,14 @@
       "imageNumber": 6,
       "width": 625,
       "height": 296,
-      "sortOrder": 6
-    },
-    {
-      "id": "brady-labels-marking-p52-img04-brady-labels-marking-1063x100",
-      "slug": "brady-labels-marking-p52-img04-brady-labels-marking-1063x100",
-      "categorySlug": "brady-labels-marking",
-      "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 08",
-      "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p52_img04_brady_labels_marking_1063x100.jpeg",
-      "sourceFolder": "brady_labels_marking",
-      "sourceFilename": "p52_img04_brady_labels_marking_1063x100.jpeg",
-      "sourcePage": 52,
-      "imageNumber": 4,
-      "width": 1063,
-      "height": 100,
-      "sortOrder": 7
+      "sortOrder": 5
     },
     {
       "id": "brady-labels-marking-p52-img08-brady-labels-marking-550x454",
       "slug": "brady-labels-marking-p52-img08-brady-labels-marking-550x454",
       "categorySlug": "brady-labels-marking",
       "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 09",
+      "name": "Brady Labels & Marking 07",
       "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p52_img08_brady_labels_marking_550x454.jpeg",
       "sourceFolder": "brady_labels_marking",
@@ -255,14 +223,14 @@
       "imageNumber": 8,
       "width": 550,
       "height": 454,
-      "sortOrder": 8
+      "sortOrder": 6
     },
     {
       "id": "brady-labels-marking-p53-img07-brady-labels-marking-579x257",
       "slug": "brady-labels-marking-p53-img07-brady-labels-marking-579x257",
       "categorySlug": "brady-labels-marking",
       "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 10",
+      "name": "Brady Labels & Marking 08",
       "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p53_img07_brady_labels_marking_579x257.jpeg",
       "sourceFolder": "brady_labels_marking",
@@ -271,14 +239,14 @@
       "imageNumber": 7,
       "width": 579,
       "height": 257,
-      "sortOrder": 9
+      "sortOrder": 7
     },
     {
       "id": "brady-labels-marking-p54-img01-brady-labels-marking-800x562",
       "slug": "brady-labels-marking-p54-img01-brady-labels-marking-800x562",
       "categorySlug": "brady-labels-marking",
       "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 11",
+      "name": "Brady Labels & Marking 09",
       "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p54_img01_brady_labels_marking_800x562.jpeg",
       "sourceFolder": "brady_labels_marking",
@@ -287,14 +255,14 @@
       "imageNumber": 1,
       "width": 800,
       "height": 562,
-      "sortOrder": 10
+      "sortOrder": 8
     },
     {
       "id": "brady-labels-marking-p55-img03-brady-labels-marking-700x270",
       "slug": "brady-labels-marking-p55-img03-brady-labels-marking-700x270",
       "categorySlug": "brady-labels-marking",
       "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 12",
+      "name": "Brady Labels & Marking 10",
       "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p55_img03_brady_labels_marking_700x270.jpeg",
       "sourceFolder": "brady_labels_marking",
@@ -303,14 +271,14 @@
       "imageNumber": 3,
       "width": 700,
       "height": 270,
-      "sortOrder": 11
+      "sortOrder": 9
     },
     {
       "id": "brady-labels-marking-p55-img05-brady-labels-marking-496x253",
       "slug": "brady-labels-marking-p55-img05-brady-labels-marking-496x253",
       "categorySlug": "brady-labels-marking",
       "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 13",
+      "name": "Brady Labels & Marking 11",
       "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p55_img05_brady_labels_marking_496x253.jpeg",
       "sourceFolder": "brady_labels_marking",
@@ -319,14 +287,14 @@
       "imageNumber": 5,
       "width": 496,
       "height": 253,
-      "sortOrder": 12
+      "sortOrder": 10
     },
     {
       "id": "brady-labels-marking-p55-img06-brady-labels-marking-465x312",
       "slug": "brady-labels-marking-p55-img06-brady-labels-marking-465x312",
       "categorySlug": "brady-labels-marking",
       "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 14",
+      "name": "Brady Labels & Marking 12",
       "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p55_img06_brady_labels_marking_465x312.jpeg",
       "sourceFolder": "brady_labels_marking",
@@ -335,14 +303,14 @@
       "imageNumber": 6,
       "width": 465,
       "height": 312,
-      "sortOrder": 13
+      "sortOrder": 11
     },
     {
       "id": "brady-labels-marking-p55-img07-brady-labels-marking-464x313",
       "slug": "brady-labels-marking-p55-img07-brady-labels-marking-464x313",
       "categorySlug": "brady-labels-marking",
       "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 15",
+      "name": "Brady Labels & Marking 13",
       "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p55_img07_brady_labels_marking_464x313.jpeg",
       "sourceFolder": "brady_labels_marking",
@@ -351,14 +319,14 @@
       "imageNumber": 7,
       "width": 464,
       "height": 313,
-      "sortOrder": 14
+      "sortOrder": 12
     },
     {
       "id": "brady-labels-marking-p56-img03-brady-labels-marking-619x247",
       "slug": "brady-labels-marking-p56-img03-brady-labels-marking-619x247",
       "categorySlug": "brady-labels-marking",
       "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 16",
+      "name": "Brady Labels & Marking 14",
       "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p56_img03_brady_labels_marking_619x247.png",
       "sourceFolder": "brady_labels_marking",
@@ -367,14 +335,14 @@
       "imageNumber": 3,
       "width": 619,
       "height": 247,
-      "sortOrder": 15
+      "sortOrder": 13
     },
     {
       "id": "brady-labels-marking-p56-img09-brady-labels-marking-647x213",
       "slug": "brady-labels-marking-p56-img09-brady-labels-marking-647x213",
       "categorySlug": "brady-labels-marking",
       "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 17",
+      "name": "Brady Labels & Marking 15",
       "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p56_img09_brady_labels_marking_647x213.png",
       "sourceFolder": "brady_labels_marking",
@@ -383,14 +351,14 @@
       "imageNumber": 9,
       "width": 647,
       "height": 213,
-      "sortOrder": 16
+      "sortOrder": 14
     },
     {
       "id": "brady-labels-marking-p56-img14-brady-labels-marking-476x401",
       "slug": "brady-labels-marking-p56-img14-brady-labels-marking-476x401",
       "categorySlug": "brady-labels-marking",
       "categoryName": "Brady Labels & Marking",
-      "name": "Brady Labels & Marking 18",
+      "name": "Brady Labels & Marking 16",
       "summary": "Cable identification, labels, marking products, and electrical labeling systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/brady_labels_marking/p56_img14_brady_labels_marking_476x401.jpeg",
       "sourceFolder": "brady_labels_marking",
@@ -399,7 +367,7 @@
       "imageNumber": 14,
       "width": 476,
       "height": 401,
-      "sortOrder": 17
+      "sortOrder": 15
     },
     {
       "id": "cable-trays-p34-img01-cable-trays-515x384",
@@ -482,27 +450,11 @@
       "sortOrder": 4
     },
     {
-      "id": "cable-trays-p34-img07-cable-trays-993x149",
-      "slug": "cable-trays-p34-img07-cable-trays-993x149",
-      "categorySlug": "cable-trays",
-      "categoryName": "Cable Trays",
-      "name": "Cable Trays 06",
-      "summary": "Cable tray fittings and metal routing systems for industrial installations.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/cable_trays/p34_img07_cable_trays_993x149.png",
-      "sourceFolder": "cable_trays",
-      "sourceFilename": "p34_img07_cable_trays_993x149.png",
-      "sourcePage": 34,
-      "imageNumber": 7,
-      "width": 993,
-      "height": 149,
-      "sortOrder": 5
-    },
-    {
       "id": "cable-trays-p35-img01-cable-trays-619x397",
       "slug": "cable-trays-p35-img01-cable-trays-619x397",
       "categorySlug": "cable-trays",
       "categoryName": "Cable Trays",
-      "name": "Cable Trays 07",
+      "name": "Cable Trays 06",
       "summary": "Cable tray fittings and metal routing systems for industrial installations.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/cable_trays/p35_img01_cable_trays_619x397.jpeg",
       "sourceFolder": "cable_trays",
@@ -511,14 +463,14 @@
       "imageNumber": 1,
       "width": 619,
       "height": 397,
-      "sortOrder": 6
+      "sortOrder": 5
     },
     {
       "id": "cable-trays-p35-img02-cable-trays-647x403",
       "slug": "cable-trays-p35-img02-cable-trays-647x403",
       "categorySlug": "cable-trays",
       "categoryName": "Cable Trays",
-      "name": "Cable Trays 08",
+      "name": "Cable Trays 07",
       "summary": "Cable tray fittings and metal routing systems for industrial installations.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/cable_trays/p35_img02_cable_trays_647x403.jpeg",
       "sourceFolder": "cable_trays",
@@ -527,14 +479,14 @@
       "imageNumber": 2,
       "width": 647,
       "height": 403,
-      "sortOrder": 7
+      "sortOrder": 6
     },
     {
       "id": "cable-trays-p35-img03-cable-trays-637x397",
       "slug": "cable-trays-p35-img03-cable-trays-637x397",
       "categorySlug": "cable-trays",
       "categoryName": "Cable Trays",
-      "name": "Cable Trays 09",
+      "name": "Cable Trays 08",
       "summary": "Cable tray fittings and metal routing systems for industrial installations.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/cable_trays/p35_img03_cable_trays_637x397.jpeg",
       "sourceFolder": "cable_trays",
@@ -543,14 +495,14 @@
       "imageNumber": 3,
       "width": 637,
       "height": 397,
-      "sortOrder": 8
+      "sortOrder": 7
     },
     {
       "id": "cable-trays-p35-img09-cable-trays-460x330",
       "slug": "cable-trays-p35-img09-cable-trays-460x330",
       "categorySlug": "cable-trays",
       "categoryName": "Cable Trays",
-      "name": "Cable Trays 10",
+      "name": "Cable Trays 09",
       "summary": "Cable tray fittings and metal routing systems for industrial installations.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/cable_trays/p35_img09_cable_trays_460x330.jpeg",
       "sourceFolder": "cable_trays",
@@ -559,14 +511,14 @@
       "imageNumber": 9,
       "width": 460,
       "height": 330,
-      "sortOrder": 9
+      "sortOrder": 8
     },
     {
       "id": "cable-trays-p35-img10-cable-trays-494x323",
       "slug": "cable-trays-p35-img10-cable-trays-494x323",
       "categorySlug": "cable-trays",
       "categoryName": "Cable Trays",
-      "name": "Cable Trays 11",
+      "name": "Cable Trays 10",
       "summary": "Cable tray fittings and metal routing systems for industrial installations.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/cable_trays/p35_img10_cable_trays_494x323.jpeg",
       "sourceFolder": "cable_trays",
@@ -575,14 +527,14 @@
       "imageNumber": 10,
       "width": 494,
       "height": 323,
-      "sortOrder": 10
+      "sortOrder": 9
     },
     {
       "id": "cable-trays-p35-img16-cable-trays-519x315",
       "slug": "cable-trays-p35-img16-cable-trays-519x315",
       "categorySlug": "cable-trays",
       "categoryName": "Cable Trays",
-      "name": "Cable Trays 12",
+      "name": "Cable Trays 11",
       "summary": "Cable tray fittings and metal routing systems for industrial installations.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/cable_trays/p35_img16_cable_trays_519x315.jpeg",
       "sourceFolder": "cable_trays",
@@ -591,14 +543,14 @@
       "imageNumber": 16,
       "width": 519,
       "height": 315,
-      "sortOrder": 11
+      "sortOrder": 10
     },
     {
       "id": "cable-trays-p36-img01-cable-trays-898x394",
       "slug": "cable-trays-p36-img01-cable-trays-898x394",
       "categorySlug": "cable-trays",
       "categoryName": "Cable Trays",
-      "name": "Cable Trays 13",
+      "name": "Cable Trays 12",
       "summary": "Cable tray fittings and metal routing systems for industrial installations.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/cable_trays/p36_img01_cable_trays_898x394.jpeg",
       "sourceFolder": "cable_trays",
@@ -607,14 +559,14 @@
       "imageNumber": 1,
       "width": 898,
       "height": 394,
-      "sortOrder": 12
+      "sortOrder": 11
     },
     {
       "id": "cable-trays-p37-img01-cable-trays-932x302",
       "slug": "cable-trays-p37-img01-cable-trays-932x302",
       "categorySlug": "cable-trays",
       "categoryName": "Cable Trays",
-      "name": "Cable Trays 14",
+      "name": "Cable Trays 13",
       "summary": "Cable tray fittings and metal routing systems for industrial installations.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/cable_trays/p37_img01_cable_trays_932x302.jpeg",
       "sourceFolder": "cable_trays",
@@ -623,7 +575,7 @@
       "imageNumber": 1,
       "width": 932,
       "height": 302,
-      "sortOrder": 13
+      "sortOrder": 12
     },
     {
       "id": "distribution-panels-p06-img01-distribution-panels-562x317",
@@ -1346,27 +1298,11 @@
       "sortOrder": 44
     },
     {
-      "id": "electrical-accessories-p57-img01-electrical-accessories-709x389",
-      "slug": "electrical-accessories-p57-img01-electrical-accessories-709x389",
-      "categorySlug": "electrical-accessories",
-      "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 01",
-      "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p57_img01_electrical_accessories_709x389.png",
-      "sourceFolder": "electrical_accessories",
-      "sourceFilename": "p57_img01_electrical_accessories_709x389.png",
-      "sourcePage": 57,
-      "imageNumber": 1,
-      "width": 709,
-      "height": 389,
-      "sortOrder": 0
-    },
-    {
       "id": "electrical-accessories-p57-img02-electrical-accessories-542x333",
       "slug": "electrical-accessories-p57-img02-electrical-accessories-542x333",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 02",
+      "name": "Electrical Accessories 01",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p57_img02_electrical_accessories_542x333.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1375,30 +1311,14 @@
       "imageNumber": 2,
       "width": 542,
       "height": 333,
-      "sortOrder": 1
-    },
-    {
-      "id": "electrical-accessories-p57-img10-electrical-accessories-541x336",
-      "slug": "electrical-accessories-p57-img10-electrical-accessories-541x336",
-      "categorySlug": "electrical-accessories",
-      "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 03",
-      "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p57_img10_electrical_accessories_541x336.jpeg",
-      "sourceFolder": "electrical_accessories",
-      "sourceFilename": "p57_img10_electrical_accessories_541x336.jpeg",
-      "sourcePage": 57,
-      "imageNumber": 10,
-      "width": 541,
-      "height": 336,
-      "sortOrder": 2
+      "sortOrder": 0
     },
     {
       "id": "electrical-accessories-p57-img11-electrical-accessories-600x600",
       "slug": "electrical-accessories-p57-img11-electrical-accessories-600x600",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 04",
+      "name": "Electrical Accessories 02",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p57_img11_electrical_accessories_600x600.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1407,14 +1327,14 @@
       "imageNumber": 11,
       "width": 600,
       "height": 600,
-      "sortOrder": 3
+      "sortOrder": 1
     },
     {
       "id": "electrical-accessories-p60-img01-electrical-accessories-1148x554",
       "slug": "electrical-accessories-p60-img01-electrical-accessories-1148x554",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 05",
+      "name": "Electrical Accessories 03",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p60_img01_electrical_accessories_1148x554.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1423,14 +1343,14 @@
       "imageNumber": 1,
       "width": 1148,
       "height": 554,
-      "sortOrder": 4
+      "sortOrder": 2
     },
     {
       "id": "electrical-accessories-p61-img02-electrical-accessories-734x327",
       "slug": "electrical-accessories-p61-img02-electrical-accessories-734x327",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 06",
+      "name": "Electrical Accessories 04",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p61_img02_electrical_accessories_734x327.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1439,14 +1359,14 @@
       "imageNumber": 2,
       "width": 734,
       "height": 327,
-      "sortOrder": 5
+      "sortOrder": 3
     },
     {
       "id": "electrical-accessories-p61-img03-electrical-accessories-708x397",
       "slug": "electrical-accessories-p61-img03-electrical-accessories-708x397",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 07",
+      "name": "Electrical Accessories 05",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p61_img03_electrical_accessories_708x397.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1455,14 +1375,14 @@
       "imageNumber": 3,
       "width": 708,
       "height": 397,
-      "sortOrder": 6
+      "sortOrder": 4
     },
     {
       "id": "electrical-accessories-p62-img01-electrical-accessories-1001x565",
       "slug": "electrical-accessories-p62-img01-electrical-accessories-1001x565",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 08",
+      "name": "Electrical Accessories 06",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p62_img01_electrical_accessories_1001x565.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1471,14 +1391,14 @@
       "imageNumber": 1,
       "width": 1001,
       "height": 565,
-      "sortOrder": 7
+      "sortOrder": 5
     },
     {
       "id": "electrical-accessories-p62-img03-electrical-accessories-1024x814",
       "slug": "electrical-accessories-p62-img03-electrical-accessories-1024x814",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 09",
+      "name": "Electrical Accessories 07",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p62_img03_electrical_accessories_1024x814.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1487,46 +1407,14 @@
       "imageNumber": 3,
       "width": 1024,
       "height": 814,
-      "sortOrder": 8
-    },
-    {
-      "id": "electrical-accessories-p62-img05-electrical-accessories-970x137",
-      "slug": "electrical-accessories-p62-img05-electrical-accessories-970x137",
-      "categorySlug": "electrical-accessories",
-      "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 10",
-      "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p62_img05_electrical_accessories_970x137.png",
-      "sourceFolder": "electrical_accessories",
-      "sourceFilename": "p62_img05_electrical_accessories_970x137.png",
-      "sourcePage": 62,
-      "imageNumber": 5,
-      "width": 970,
-      "height": 137,
-      "sortOrder": 9
-    },
-    {
-      "id": "electrical-accessories-p63-img02-electrical-accessories-898x153",
-      "slug": "electrical-accessories-p63-img02-electrical-accessories-898x153",
-      "categorySlug": "electrical-accessories",
-      "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 11",
-      "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p63_img02_electrical_accessories_898x153.jpeg",
-      "sourceFolder": "electrical_accessories",
-      "sourceFilename": "p63_img02_electrical_accessories_898x153.jpeg",
-      "sourcePage": 63,
-      "imageNumber": 2,
-      "width": 898,
-      "height": 153,
-      "sortOrder": 10
+      "sortOrder": 6
     },
     {
       "id": "electrical-accessories-p64-img05-electrical-accessories-579x342",
       "slug": "electrical-accessories-p64-img05-electrical-accessories-579x342",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 12",
+      "name": "Electrical Accessories 08",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p64_img05_electrical_accessories_579x342.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1535,14 +1423,14 @@
       "imageNumber": 5,
       "width": 579,
       "height": 342,
-      "sortOrder": 11
+      "sortOrder": 7
     },
     {
       "id": "electrical-accessories-p64-img06-electrical-accessories-750x305",
       "slug": "electrical-accessories-p64-img06-electrical-accessories-750x305",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 13",
+      "name": "Electrical Accessories 09",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p64_img06_electrical_accessories_750x305.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1551,14 +1439,14 @@
       "imageNumber": 6,
       "width": 750,
       "height": 305,
-      "sortOrder": 12
+      "sortOrder": 8
     },
     {
       "id": "electrical-accessories-p64-img07-electrical-accessories-668x286",
       "slug": "electrical-accessories-p64-img07-electrical-accessories-668x286",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 14",
+      "name": "Electrical Accessories 10",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p64_img07_electrical_accessories_668x286.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1567,14 +1455,14 @@
       "imageNumber": 7,
       "width": 668,
       "height": 286,
-      "sortOrder": 13
+      "sortOrder": 9
     },
     {
       "id": "electrical-accessories-p64-img08-electrical-accessories-500x500",
       "slug": "electrical-accessories-p64-img08-electrical-accessories-500x500",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 15",
+      "name": "Electrical Accessories 11",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p64_img08_electrical_accessories_500x500.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1583,14 +1471,14 @@
       "imageNumber": 8,
       "width": 500,
       "height": 500,
-      "sortOrder": 14
+      "sortOrder": 10
     },
     {
       "id": "electrical-accessories-p64-img10-electrical-accessories-578x356",
       "slug": "electrical-accessories-p64-img10-electrical-accessories-578x356",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 16",
+      "name": "Electrical Accessories 12",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p64_img10_electrical_accessories_578x356.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1599,14 +1487,14 @@
       "imageNumber": 10,
       "width": 578,
       "height": 356,
-      "sortOrder": 15
+      "sortOrder": 11
     },
     {
       "id": "electrical-accessories-p65-img06-electrical-accessories-868x359",
       "slug": "electrical-accessories-p65-img06-electrical-accessories-868x359",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 17",
+      "name": "Electrical Accessories 13",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p65_img06_electrical_accessories_868x359.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1615,14 +1503,14 @@
       "imageNumber": 6,
       "width": 868,
       "height": 359,
-      "sortOrder": 16
+      "sortOrder": 12
     },
     {
       "id": "electrical-accessories-p65-img07-electrical-accessories-553x293",
       "slug": "electrical-accessories-p65-img07-electrical-accessories-553x293",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 18",
+      "name": "Electrical Accessories 14",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p65_img07_electrical_accessories_553x293.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1631,14 +1519,14 @@
       "imageNumber": 7,
       "width": 553,
       "height": 293,
-      "sortOrder": 17
+      "sortOrder": 13
     },
     {
       "id": "electrical-accessories-p65-img08-electrical-accessories-876x399",
       "slug": "electrical-accessories-p65-img08-electrical-accessories-876x399",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 19",
+      "name": "Electrical Accessories 15",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p65_img08_electrical_accessories_876x399.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1647,14 +1535,14 @@
       "imageNumber": 8,
       "width": 876,
       "height": 399,
-      "sortOrder": 18
+      "sortOrder": 14
     },
     {
       "id": "electrical-accessories-p66-img01-electrical-accessories-2163x827",
       "slug": "electrical-accessories-p66-img01-electrical-accessories-2163x827",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 20",
+      "name": "Electrical Accessories 16",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p66_img01_electrical_accessories_2163x827.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1663,14 +1551,14 @@
       "imageNumber": 1,
       "width": 2163,
       "height": 827,
-      "sortOrder": 19
+      "sortOrder": 15
     },
     {
       "id": "electrical-accessories-p67-img01-electrical-accessories-2092x837",
       "slug": "electrical-accessories-p67-img01-electrical-accessories-2092x837",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 21",
+      "name": "Electrical Accessories 17",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p67_img01_electrical_accessories_2092x837.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1679,30 +1567,14 @@
       "imageNumber": 1,
       "width": 2092,
       "height": 837,
-      "sortOrder": 20
-    },
-    {
-      "id": "electrical-accessories-p67-img04-electrical-accessories-703x149",
-      "slug": "electrical-accessories-p67-img04-electrical-accessories-703x149",
-      "categorySlug": "electrical-accessories",
-      "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 22",
-      "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p67_img04_electrical_accessories_703x149.png",
-      "sourceFolder": "electrical_accessories",
-      "sourceFilename": "p67_img04_electrical_accessories_703x149.png",
-      "sourcePage": 67,
-      "imageNumber": 4,
-      "width": 703,
-      "height": 149,
-      "sortOrder": 21
+      "sortOrder": 16
     },
     {
       "id": "electrical-accessories-p68-img02-electrical-accessories-2176x769",
       "slug": "electrical-accessories-p68-img02-electrical-accessories-2176x769",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 23",
+      "name": "Electrical Accessories 18",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p68_img02_electrical_accessories_2176x769.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1711,14 +1583,14 @@
       "imageNumber": 2,
       "width": 2176,
       "height": 769,
-      "sortOrder": 22
+      "sortOrder": 17
     },
     {
       "id": "electrical-accessories-p69-img02-electrical-accessories-2164x727",
       "slug": "electrical-accessories-p69-img02-electrical-accessories-2164x727",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 24",
+      "name": "Electrical Accessories 19",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p69_img02_electrical_accessories_2164x727.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1727,14 +1599,14 @@
       "imageNumber": 2,
       "width": 2164,
       "height": 727,
-      "sortOrder": 23
+      "sortOrder": 18
     },
     {
       "id": "electrical-accessories-p70-img01-electrical-accessories-1171x1086",
       "slug": "electrical-accessories-p70-img01-electrical-accessories-1171x1086",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 25",
+      "name": "Electrical Accessories 20",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p70_img01_electrical_accessories_1171x1086.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1743,14 +1615,14 @@
       "imageNumber": 1,
       "width": 1171,
       "height": 1086,
-      "sortOrder": 24
+      "sortOrder": 19
     },
     {
       "id": "electrical-accessories-p71-img01-electrical-accessories-2158x729",
       "slug": "electrical-accessories-p71-img01-electrical-accessories-2158x729",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 26",
+      "name": "Electrical Accessories 21",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p71_img01_electrical_accessories_2158x729.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1759,14 +1631,14 @@
       "imageNumber": 1,
       "width": 2158,
       "height": 729,
-      "sortOrder": 25
+      "sortOrder": 20
     },
     {
       "id": "electrical-accessories-p72-img02-electrical-accessories-1755x688",
       "slug": "electrical-accessories-p72-img02-electrical-accessories-1755x688",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 27",
+      "name": "Electrical Accessories 22",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p72_img02_electrical_accessories_1755x688.jpeg",
       "sourceFolder": "electrical_accessories",
@@ -1775,14 +1647,14 @@
       "imageNumber": 2,
       "width": 1755,
       "height": 688,
-      "sortOrder": 26
+      "sortOrder": 21
     },
     {
       "id": "electrical-accessories-p73-img02-electrical-accessories-1018x247",
       "slug": "electrical-accessories-p73-img02-electrical-accessories-1018x247",
       "categorySlug": "electrical-accessories",
       "categoryName": "Electrical Accessories",
-      "name": "Electrical Accessories 28",
+      "name": "Electrical Accessories 23",
       "summary": "Cable ties, wiring accessories, control accessories, and related electrical supplies.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/electrical_accessories/p73_img02_electrical_accessories_1018x247.png",
       "sourceFolder": "electrical_accessories",
@@ -1791,62 +1663,14 @@
       "imageNumber": 2,
       "width": 1018,
       "height": 247,
-      "sortOrder": 27
-    },
-    {
-      "id": "fire-fighting-cabinets-p25-img04-fire-fighting-cabinets-513x513",
-      "slug": "fire-fighting-cabinets-p25-img04-fire-fighting-cabinets-513x513",
-      "categorySlug": "fire-fighting-cabinets",
-      "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 01",
-      "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p25_img04_fire_fighting_cabinets_513x513.jpeg",
-      "sourceFolder": "fire_fighting_cabinets",
-      "sourceFilename": "p25_img04_fire_fighting_cabinets_513x513.jpeg",
-      "sourcePage": 25,
-      "imageNumber": 4,
-      "width": 513,
-      "height": 513,
-      "sortOrder": 0
-    },
-    {
-      "id": "fire-fighting-cabinets-p25-img07-fire-fighting-cabinets-948x180",
-      "slug": "fire-fighting-cabinets-p25-img07-fire-fighting-cabinets-948x180",
-      "categorySlug": "fire-fighting-cabinets",
-      "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 02",
-      "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p25_img07_fire_fighting_cabinets_948x180.png",
-      "sourceFolder": "fire_fighting_cabinets",
-      "sourceFilename": "p25_img07_fire_fighting_cabinets_948x180.png",
-      "sourcePage": 25,
-      "imageNumber": 7,
-      "width": 948,
-      "height": 180,
-      "sortOrder": 1
-    },
-    {
-      "id": "fire-fighting-cabinets-p25-img08-fire-fighting-cabinets-730x409",
-      "slug": "fire-fighting-cabinets-p25-img08-fire-fighting-cabinets-730x409",
-      "categorySlug": "fire-fighting-cabinets",
-      "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 03",
-      "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p25_img08_fire_fighting_cabinets_730x409.jpeg",
-      "sourceFolder": "fire_fighting_cabinets",
-      "sourceFilename": "p25_img08_fire_fighting_cabinets_730x409.jpeg",
-      "sourcePage": 25,
-      "imageNumber": 8,
-      "width": 730,
-      "height": 409,
-      "sortOrder": 2
+      "sortOrder": 22
     },
     {
       "id": "fire-fighting-cabinets-p26-img03-fire-fighting-cabinets-1309x984",
       "slug": "fire-fighting-cabinets-p26-img03-fire-fighting-cabinets-1309x984",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 04",
+      "name": "Fire Fighting Cabinets 01",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p26_img03_fire_fighting_cabinets_1309x984.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1855,30 +1679,14 @@
       "imageNumber": 3,
       "width": 1309,
       "height": 984,
-      "sortOrder": 3
-    },
-    {
-      "id": "fire-fighting-cabinets-p27-img01-fire-fighting-cabinets-950x950",
-      "slug": "fire-fighting-cabinets-p27-img01-fire-fighting-cabinets-950x950",
-      "categorySlug": "fire-fighting-cabinets",
-      "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 05",
-      "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p27_img01_fire_fighting_cabinets_950x950.jpeg",
-      "sourceFolder": "fire_fighting_cabinets",
-      "sourceFilename": "p27_img01_fire_fighting_cabinets_950x950.jpeg",
-      "sourcePage": 27,
-      "imageNumber": 1,
-      "width": 950,
-      "height": 950,
-      "sortOrder": 4
+      "sortOrder": 0
     },
     {
       "id": "fire-fighting-cabinets-p27-img04-fire-fighting-cabinets-917x660",
       "slug": "fire-fighting-cabinets-p27-img04-fire-fighting-cabinets-917x660",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 06",
+      "name": "Fire Fighting Cabinets 02",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p27_img04_fire_fighting_cabinets_917x660.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1887,14 +1695,14 @@
       "imageNumber": 4,
       "width": 917,
       "height": 660,
-      "sortOrder": 5
+      "sortOrder": 1
     },
     {
       "id": "fire-fighting-cabinets-p27-img05-fire-fighting-cabinets-565x752",
       "slug": "fire-fighting-cabinets-p27-img05-fire-fighting-cabinets-565x752",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 07",
+      "name": "Fire Fighting Cabinets 03",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p27_img05_fire_fighting_cabinets_565x752.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1903,14 +1711,14 @@
       "imageNumber": 5,
       "width": 565,
       "height": 752,
-      "sortOrder": 6
+      "sortOrder": 2
     },
     {
       "id": "fire-fighting-cabinets-p28-img03-fire-fighting-cabinets-898x843",
       "slug": "fire-fighting-cabinets-p28-img03-fire-fighting-cabinets-898x843",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 08",
+      "name": "Fire Fighting Cabinets 04",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p28_img03_fire_fighting_cabinets_898x843.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1919,14 +1727,14 @@
       "imageNumber": 3,
       "width": 898,
       "height": 843,
-      "sortOrder": 7
+      "sortOrder": 3
     },
     {
       "id": "fire-fighting-cabinets-p28-img04-fire-fighting-cabinets-513x835",
       "slug": "fire-fighting-cabinets-p28-img04-fire-fighting-cabinets-513x835",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 09",
+      "name": "Fire Fighting Cabinets 05",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p28_img04_fire_fighting_cabinets_513x835.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1935,14 +1743,14 @@
       "imageNumber": 4,
       "width": 513,
       "height": 835,
-      "sortOrder": 8
+      "sortOrder": 4
     },
     {
       "id": "fire-fighting-cabinets-p29-img03-fire-fighting-cabinets-732x456",
       "slug": "fire-fighting-cabinets-p29-img03-fire-fighting-cabinets-732x456",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 10",
+      "name": "Fire Fighting Cabinets 06",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p29_img03_fire_fighting_cabinets_732x456.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1951,14 +1759,14 @@
       "imageNumber": 3,
       "width": 732,
       "height": 456,
-      "sortOrder": 9
+      "sortOrder": 5
     },
     {
       "id": "fire-fighting-cabinets-p29-img04-fire-fighting-cabinets-731x697",
       "slug": "fire-fighting-cabinets-p29-img04-fire-fighting-cabinets-731x697",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 11",
+      "name": "Fire Fighting Cabinets 07",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p29_img04_fire_fighting_cabinets_731x697.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1967,14 +1775,14 @@
       "imageNumber": 4,
       "width": 731,
       "height": 697,
-      "sortOrder": 10
+      "sortOrder": 6
     },
     {
       "id": "fire-fighting-cabinets-p30-img03-fire-fighting-cabinets-862x238",
       "slug": "fire-fighting-cabinets-p30-img03-fire-fighting-cabinets-862x238",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 12",
+      "name": "Fire Fighting Cabinets 08",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p30_img03_fire_fighting_cabinets_862x238.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1983,14 +1791,14 @@
       "imageNumber": 3,
       "width": 862,
       "height": 238,
-      "sortOrder": 11
+      "sortOrder": 7
     },
     {
       "id": "fire-fighting-cabinets-p30-img06-fire-fighting-cabinets-748x275",
       "slug": "fire-fighting-cabinets-p30-img06-fire-fighting-cabinets-748x275",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 13",
+      "name": "Fire Fighting Cabinets 09",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p30_img06_fire_fighting_cabinets_748x275.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1999,14 +1807,14 @@
       "imageNumber": 6,
       "width": 748,
       "height": 275,
-      "sortOrder": 12
+      "sortOrder": 8
     },
     {
       "id": "fire-fighting-cabinets-p31-img03-fire-fighting-cabinets-2202x685",
       "slug": "fire-fighting-cabinets-p31-img03-fire-fighting-cabinets-2202x685",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 14",
+      "name": "Fire Fighting Cabinets 10",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p31_img03_fire_fighting_cabinets_2202x685.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -2015,14 +1823,14 @@
       "imageNumber": 3,
       "width": 2202,
       "height": 685,
-      "sortOrder": 13
+      "sortOrder": 9
     },
     {
       "id": "fire-fighting-cabinets-p32-img04-fire-fighting-cabinets-518x406",
       "slug": "fire-fighting-cabinets-p32-img04-fire-fighting-cabinets-518x406",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 15",
+      "name": "Fire Fighting Cabinets 11",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p32_img04_fire_fighting_cabinets_518x406.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -2031,14 +1839,14 @@
       "imageNumber": 4,
       "width": 518,
       "height": 406,
-      "sortOrder": 14
+      "sortOrder": 10
     },
     {
       "id": "fire-fighting-cabinets-p32-img10-fire-fighting-cabinets-500x500",
       "slug": "fire-fighting-cabinets-p32-img10-fire-fighting-cabinets-500x500",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 16",
+      "name": "Fire Fighting Cabinets 12",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p32_img10_fire_fighting_cabinets_500x500.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -2047,7 +1855,7 @@
       "imageNumber": 10,
       "width": 500,
       "height": 500,
-      "sortOrder": 15
+      "sortOrder": 11
     },
     {
       "id": "industrial-sockets-contactors-p86-img04-industrial-sockets-contactors-477x304",
@@ -2818,43 +2626,11 @@
       "sortOrder": 11
     },
     {
-      "id": "solar-lighting-p44-img03-solar-lighting-731x143",
-      "slug": "solar-lighting-p44-img03-solar-lighting-731x143",
-      "categorySlug": "solar-lighting",
-      "categoryName": "Solar Lighting",
-      "name": "Solar Lighting 13",
-      "summary": "Solar street lighting, flood lights, and solar-powered outdoor lighting systems.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/solar_lighting/p44_img03_solar_lighting_731x143.png",
-      "sourceFolder": "solar_lighting",
-      "sourceFilename": "p44_img03_solar_lighting_731x143.png",
-      "sourcePage": 44,
-      "imageNumber": 3,
-      "width": 731,
-      "height": 143,
-      "sortOrder": 12
-    },
-    {
-      "id": "solar-lighting-p44-img04-solar-lighting-1088x169",
-      "slug": "solar-lighting-p44-img04-solar-lighting-1088x169",
-      "categorySlug": "solar-lighting",
-      "categoryName": "Solar Lighting",
-      "name": "Solar Lighting 14",
-      "summary": "Solar street lighting, flood lights, and solar-powered outdoor lighting systems.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/solar_lighting/p44_img04_solar_lighting_1088x169.jpeg",
-      "sourceFolder": "solar_lighting",
-      "sourceFilename": "p44_img04_solar_lighting_1088x169.jpeg",
-      "sourcePage": 44,
-      "imageNumber": 4,
-      "width": 1088,
-      "height": 169,
-      "sortOrder": 13
-    },
-    {
       "id": "solar-lighting-p44-img05-solar-lighting-1167x1047",
       "slug": "solar-lighting-p44-img05-solar-lighting-1167x1047",
       "categorySlug": "solar-lighting",
       "categoryName": "Solar Lighting",
-      "name": "Solar Lighting 15",
+      "name": "Solar Lighting 13",
       "summary": "Solar street lighting, flood lights, and solar-powered outdoor lighting systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/solar_lighting/p44_img05_solar_lighting_1167x1047.jpeg",
       "sourceFolder": "solar_lighting",
@@ -2863,14 +2639,14 @@
       "imageNumber": 5,
       "width": 1167,
       "height": 1047,
-      "sortOrder": 14
+      "sortOrder": 12
     },
     {
       "id": "solar-lighting-p45-img03-solar-lighting-1654x598",
       "slug": "solar-lighting-p45-img03-solar-lighting-1654x598",
       "categorySlug": "solar-lighting",
       "categoryName": "Solar Lighting",
-      "name": "Solar Lighting 16",
+      "name": "Solar Lighting 14",
       "summary": "Solar street lighting, flood lights, and solar-powered outdoor lighting systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/solar_lighting/p45_img03_solar_lighting_1654x598.jpeg",
       "sourceFolder": "solar_lighting",
@@ -2879,14 +2655,14 @@
       "imageNumber": 3,
       "width": 1654,
       "height": 598,
-      "sortOrder": 15
+      "sortOrder": 13
     },
     {
       "id": "solar-lighting-p46-img02-solar-lighting-523x248",
       "slug": "solar-lighting-p46-img02-solar-lighting-523x248",
       "categorySlug": "solar-lighting",
       "categoryName": "Solar Lighting",
-      "name": "Solar Lighting 17",
+      "name": "Solar Lighting 15",
       "summary": "Solar street lighting, flood lights, and solar-powered outdoor lighting systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/solar_lighting/p46_img02_solar_lighting_523x248.png",
       "sourceFolder": "solar_lighting",
@@ -2895,14 +2671,14 @@
       "imageNumber": 2,
       "width": 523,
       "height": 248,
-      "sortOrder": 16
+      "sortOrder": 14
     },
     {
       "id": "solar-lighting-p46-img04-solar-lighting-500x318",
       "slug": "solar-lighting-p46-img04-solar-lighting-500x318",
       "categorySlug": "solar-lighting",
       "categoryName": "Solar Lighting",
-      "name": "Solar Lighting 18",
+      "name": "Solar Lighting 16",
       "summary": "Solar street lighting, flood lights, and solar-powered outdoor lighting systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/solar_lighting/p46_img04_solar_lighting_500x318.jpeg",
       "sourceFolder": "solar_lighting",
@@ -2911,14 +2687,14 @@
       "imageNumber": 4,
       "width": 500,
       "height": 318,
-      "sortOrder": 17
+      "sortOrder": 15
     },
     {
       "id": "solar-lighting-p46-img09-solar-lighting-507x361",
       "slug": "solar-lighting-p46-img09-solar-lighting-507x361",
       "categorySlug": "solar-lighting",
       "categoryName": "Solar Lighting",
-      "name": "Solar Lighting 19",
+      "name": "Solar Lighting 17",
       "summary": "Solar street lighting, flood lights, and solar-powered outdoor lighting systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/solar_lighting/p46_img09_solar_lighting_507x361.jpeg",
       "sourceFolder": "solar_lighting",
@@ -2927,30 +2703,14 @@
       "imageNumber": 9,
       "width": 507,
       "height": 361,
-      "sortOrder": 18
-    },
-    {
-      "id": "solar-lighting-p47-img03-solar-lighting-674x173",
-      "slug": "solar-lighting-p47-img03-solar-lighting-674x173",
-      "categorySlug": "solar-lighting",
-      "categoryName": "Solar Lighting",
-      "name": "Solar Lighting 20",
-      "summary": "Solar street lighting, flood lights, and solar-powered outdoor lighting systems.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/solar_lighting/p47_img03_solar_lighting_674x173.jpeg",
-      "sourceFolder": "solar_lighting",
-      "sourceFilename": "p47_img03_solar_lighting_674x173.jpeg",
-      "sourcePage": 47,
-      "imageNumber": 3,
-      "width": 674,
-      "height": 173,
-      "sortOrder": 19
+      "sortOrder": 16
     },
     {
       "id": "solar-lighting-p47-img04-solar-lighting-861x400",
       "slug": "solar-lighting-p47-img04-solar-lighting-861x400",
       "categorySlug": "solar-lighting",
       "categoryName": "Solar Lighting",
-      "name": "Solar Lighting 21",
+      "name": "Solar Lighting 18",
       "summary": "Solar street lighting, flood lights, and solar-powered outdoor lighting systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/solar_lighting/p47_img04_solar_lighting_861x400.jpeg",
       "sourceFolder": "solar_lighting",
@@ -2959,14 +2719,14 @@
       "imageNumber": 4,
       "width": 861,
       "height": 400,
-      "sortOrder": 20
+      "sortOrder": 17
     },
     {
       "id": "solar-lighting-p47-img09-solar-lighting-615x499",
       "slug": "solar-lighting-p47-img09-solar-lighting-615x499",
       "categorySlug": "solar-lighting",
       "categoryName": "Solar Lighting",
-      "name": "Solar Lighting 22",
+      "name": "Solar Lighting 19",
       "summary": "Solar street lighting, flood lights, and solar-powered outdoor lighting systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/solar_lighting/p47_img09_solar_lighting_615x499.jpeg",
       "sourceFolder": "solar_lighting",
@@ -2975,14 +2735,14 @@
       "imageNumber": 9,
       "width": 615,
       "height": 499,
-      "sortOrder": 21
+      "sortOrder": 18
     },
     {
       "id": "solar-lighting-p48-img03-solar-lighting-512x323",
       "slug": "solar-lighting-p48-img03-solar-lighting-512x323",
       "categorySlug": "solar-lighting",
       "categoryName": "Solar Lighting",
-      "name": "Solar Lighting 23",
+      "name": "Solar Lighting 20",
       "summary": "Solar street lighting, flood lights, and solar-powered outdoor lighting systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/solar_lighting/p48_img03_solar_lighting_512x323.jpeg",
       "sourceFolder": "solar_lighting",
@@ -2991,14 +2751,14 @@
       "imageNumber": 3,
       "width": 512,
       "height": 323,
-      "sortOrder": 22
+      "sortOrder": 19
     },
     {
       "id": "solar-lighting-p49-img04-solar-lighting-546x406",
       "slug": "solar-lighting-p49-img04-solar-lighting-546x406",
       "categorySlug": "solar-lighting",
       "categoryName": "Solar Lighting",
-      "name": "Solar Lighting 24",
+      "name": "Solar Lighting 21",
       "summary": "Solar street lighting, flood lights, and solar-powered outdoor lighting systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/solar_lighting/p49_img04_solar_lighting_546x406.jpeg",
       "sourceFolder": "solar_lighting",
@@ -3007,14 +2767,14 @@
       "imageNumber": 4,
       "width": 546,
       "height": 406,
-      "sortOrder": 23
+      "sortOrder": 20
     },
     {
       "id": "solar-lighting-p49-img05-solar-lighting-730x730",
       "slug": "solar-lighting-p49-img05-solar-lighting-730x730",
       "categorySlug": "solar-lighting",
       "categoryName": "Solar Lighting",
-      "name": "Solar Lighting 25",
+      "name": "Solar Lighting 22",
       "summary": "Solar street lighting, flood lights, and solar-powered outdoor lighting systems.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/solar_lighting/p49_img05_solar_lighting_730x730.jpeg",
       "sourceFolder": "solar_lighting",
@@ -3023,62 +2783,14 @@
       "imageNumber": 5,
       "width": 730,
       "height": 730,
-      "sortOrder": 24
-    },
-    {
-      "id": "solar-lighting-p49-img07-solar-lighting-998x201",
-      "slug": "solar-lighting-p49-img07-solar-lighting-998x201",
-      "categorySlug": "solar-lighting",
-      "categoryName": "Solar Lighting",
-      "name": "Solar Lighting 26",
-      "summary": "Solar street lighting, flood lights, and solar-powered outdoor lighting systems.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/solar_lighting/p49_img07_solar_lighting_998x201.jpeg",
-      "sourceFolder": "solar_lighting",
-      "sourceFilename": "p49_img07_solar_lighting_998x201.jpeg",
-      "sourcePage": 49,
-      "imageNumber": 7,
-      "width": 998,
-      "height": 201,
-      "sortOrder": 25
-    },
-    {
-      "id": "terminal-blocks-instruments-p74-img01-terminal-blocks-instruments-1053x120",
-      "slug": "terminal-blocks-instruments-p74-img01-terminal-blocks-instruments-1053x120",
-      "categorySlug": "terminal-blocks-instruments",
-      "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 01",
-      "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p74_img01_terminal_blocks_instruments_1053x120.png",
-      "sourceFolder": "terminal_blocks_instruments",
-      "sourceFilename": "p74_img01_terminal_blocks_instruments_1053x120.png",
-      "sourcePage": 74,
-      "imageNumber": 1,
-      "width": 1053,
-      "height": 120,
-      "sortOrder": 0
-    },
-    {
-      "id": "terminal-blocks-instruments-p74-img03-terminal-blocks-instruments-619x172",
-      "slug": "terminal-blocks-instruments-p74-img03-terminal-blocks-instruments-619x172",
-      "categorySlug": "terminal-blocks-instruments",
-      "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 02",
-      "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p74_img03_terminal_blocks_instruments_619x172.jpeg",
-      "sourceFolder": "terminal_blocks_instruments",
-      "sourceFilename": "p74_img03_terminal_blocks_instruments_619x172.jpeg",
-      "sourcePage": 74,
-      "imageNumber": 3,
-      "width": 619,
-      "height": 172,
-      "sortOrder": 1
+      "sortOrder": 21
     },
     {
       "id": "terminal-blocks-instruments-p74-img04-terminal-blocks-instruments-756x269",
       "slug": "terminal-blocks-instruments-p74-img04-terminal-blocks-instruments-756x269",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 03",
+      "name": "Terminal Blocks & Instruments 01",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p74_img04_terminal_blocks_instruments_756x269.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3087,14 +2799,14 @@
       "imageNumber": 4,
       "width": 756,
       "height": 269,
-      "sortOrder": 2
+      "sortOrder": 0
     },
     {
       "id": "terminal-blocks-instruments-p76-img01-terminal-blocks-instruments-533x623",
       "slug": "terminal-blocks-instruments-p76-img01-terminal-blocks-instruments-533x623",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 04",
+      "name": "Terminal Blocks & Instruments 02",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p76_img01_terminal_blocks_instruments_533x623.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3103,14 +2815,14 @@
       "imageNumber": 1,
       "width": 533,
       "height": 623,
-      "sortOrder": 3
+      "sortOrder": 1
     },
     {
       "id": "terminal-blocks-instruments-p76-img02-terminal-blocks-instruments-627x259",
       "slug": "terminal-blocks-instruments-p76-img02-terminal-blocks-instruments-627x259",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 05",
+      "name": "Terminal Blocks & Instruments 03",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p76_img02_terminal_blocks_instruments_627x259.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3119,14 +2831,14 @@
       "imageNumber": 2,
       "width": 627,
       "height": 259,
-      "sortOrder": 4
+      "sortOrder": 2
     },
     {
       "id": "terminal-blocks-instruments-p76-img07-terminal-blocks-instruments-740x468",
       "slug": "terminal-blocks-instruments-p76-img07-terminal-blocks-instruments-740x468",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 06",
+      "name": "Terminal Blocks & Instruments 04",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p76_img07_terminal_blocks_instruments_740x468.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3135,14 +2847,14 @@
       "imageNumber": 7,
       "width": 740,
       "height": 468,
-      "sortOrder": 5
+      "sortOrder": 3
     },
     {
       "id": "terminal-blocks-instruments-p77-img01-terminal-blocks-instruments-714x546",
       "slug": "terminal-blocks-instruments-p77-img01-terminal-blocks-instruments-714x546",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 07",
+      "name": "Terminal Blocks & Instruments 05",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p77_img01_terminal_blocks_instruments_714x546.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3151,14 +2863,14 @@
       "imageNumber": 1,
       "width": 714,
       "height": 546,
-      "sortOrder": 6
+      "sortOrder": 4
     },
     {
       "id": "terminal-blocks-instruments-p77-img05-terminal-blocks-instruments-727x468",
       "slug": "terminal-blocks-instruments-p77-img05-terminal-blocks-instruments-727x468",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 08",
+      "name": "Terminal Blocks & Instruments 06",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p77_img05_terminal_blocks_instruments_727x468.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3167,14 +2879,14 @@
       "imageNumber": 5,
       "width": 727,
       "height": 468,
-      "sortOrder": 7
+      "sortOrder": 5
     },
     {
       "id": "terminal-blocks-instruments-p77-img06-terminal-blocks-instruments-751x286",
       "slug": "terminal-blocks-instruments-p77-img06-terminal-blocks-instruments-751x286",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 09",
+      "name": "Terminal Blocks & Instruments 07",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p77_img06_terminal_blocks_instruments_751x286.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3183,14 +2895,14 @@
       "imageNumber": 6,
       "width": 751,
       "height": 286,
-      "sortOrder": 8
+      "sortOrder": 6
     },
     {
       "id": "terminal-blocks-instruments-p78-img01-terminal-blocks-instruments-559x312",
       "slug": "terminal-blocks-instruments-p78-img01-terminal-blocks-instruments-559x312",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 10",
+      "name": "Terminal Blocks & Instruments 08",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p78_img01_terminal_blocks_instruments_559x312.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3199,14 +2911,14 @@
       "imageNumber": 1,
       "width": 559,
       "height": 312,
-      "sortOrder": 9
+      "sortOrder": 7
     },
     {
       "id": "terminal-blocks-instruments-p78-img02-terminal-blocks-instruments-403x922",
       "slug": "terminal-blocks-instruments-p78-img02-terminal-blocks-instruments-403x922",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 11",
+      "name": "Terminal Blocks & Instruments 09",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p78_img02_terminal_blocks_instruments_403x922.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3215,14 +2927,14 @@
       "imageNumber": 2,
       "width": 403,
       "height": 922,
-      "sortOrder": 10
+      "sortOrder": 8
     },
     {
       "id": "terminal-blocks-instruments-p79-img01-terminal-blocks-instruments-1273x900",
       "slug": "terminal-blocks-instruments-p79-img01-terminal-blocks-instruments-1273x900",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 12",
+      "name": "Terminal Blocks & Instruments 10",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p79_img01_terminal_blocks_instruments_1273x900.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3231,14 +2943,14 @@
       "imageNumber": 1,
       "width": 1273,
       "height": 900,
-      "sortOrder": 11
+      "sortOrder": 9
     },
     {
       "id": "terminal-blocks-instruments-p80-img01-terminal-blocks-instruments-1273x900",
       "slug": "terminal-blocks-instruments-p80-img01-terminal-blocks-instruments-1273x900",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 13",
+      "name": "Terminal Blocks & Instruments 11",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p80_img01_terminal_blocks_instruments_1273x900.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3247,30 +2959,14 @@
       "imageNumber": 1,
       "width": 1273,
       "height": 900,
-      "sortOrder": 12
-    },
-    {
-      "id": "terminal-blocks-instruments-p80-img02-terminal-blocks-instruments-1066x101",
-      "slug": "terminal-blocks-instruments-p80-img02-terminal-blocks-instruments-1066x101",
-      "categorySlug": "terminal-blocks-instruments",
-      "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 14",
-      "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p80_img02_terminal_blocks_instruments_1066x101.png",
-      "sourceFolder": "terminal_blocks_instruments",
-      "sourceFilename": "p80_img02_terminal_blocks_instruments_1066x101.png",
-      "sourcePage": 80,
-      "imageNumber": 2,
-      "width": 1066,
-      "height": 101,
-      "sortOrder": 13
+      "sortOrder": 10
     },
     {
       "id": "terminal-blocks-instruments-p81-img01-terminal-blocks-instruments-2200x1122",
       "slug": "terminal-blocks-instruments-p81-img01-terminal-blocks-instruments-2200x1122",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 15",
+      "name": "Terminal Blocks & Instruments 12",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p81_img01_terminal_blocks_instruments_2200x1122.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3279,14 +2975,14 @@
       "imageNumber": 1,
       "width": 2200,
       "height": 1122,
-      "sortOrder": 14
+      "sortOrder": 11
     },
     {
       "id": "terminal-blocks-instruments-p83-img01-terminal-blocks-instruments-556x302",
       "slug": "terminal-blocks-instruments-p83-img01-terminal-blocks-instruments-556x302",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 16",
+      "name": "Terminal Blocks & Instruments 13",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p83_img01_terminal_blocks_instruments_556x302.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3295,14 +2991,14 @@
       "imageNumber": 1,
       "width": 556,
       "height": 302,
-      "sortOrder": 15
+      "sortOrder": 12
     },
     {
       "id": "terminal-blocks-instruments-p83-img02-terminal-blocks-instruments-555x289",
       "slug": "terminal-blocks-instruments-p83-img02-terminal-blocks-instruments-555x289",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 17",
+      "name": "Terminal Blocks & Instruments 14",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p83_img02_terminal_blocks_instruments_555x289.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3311,14 +3007,14 @@
       "imageNumber": 2,
       "width": 555,
       "height": 289,
-      "sortOrder": 16
+      "sortOrder": 13
     },
     {
       "id": "terminal-blocks-instruments-p83-img04-terminal-blocks-instruments-483x305",
       "slug": "terminal-blocks-instruments-p83-img04-terminal-blocks-instruments-483x305",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 18",
+      "name": "Terminal Blocks & Instruments 15",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p83_img04_terminal_blocks_instruments_483x305.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3327,14 +3023,14 @@
       "imageNumber": 4,
       "width": 483,
       "height": 305,
-      "sortOrder": 17
+      "sortOrder": 14
     },
     {
       "id": "terminal-blocks-instruments-p83-img05-terminal-blocks-instruments-477x275",
       "slug": "terminal-blocks-instruments-p83-img05-terminal-blocks-instruments-477x275",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 19",
+      "name": "Terminal Blocks & Instruments 16",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p83_img05_terminal_blocks_instruments_477x275.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3343,14 +3039,14 @@
       "imageNumber": 5,
       "width": 477,
       "height": 275,
-      "sortOrder": 18
+      "sortOrder": 15
     },
     {
       "id": "terminal-blocks-instruments-p84-img02-terminal-blocks-instruments-484x300",
       "slug": "terminal-blocks-instruments-p84-img02-terminal-blocks-instruments-484x300",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 20",
+      "name": "Terminal Blocks & Instruments 17",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p84_img02_terminal_blocks_instruments_484x300.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3359,14 +3055,14 @@
       "imageNumber": 2,
       "width": 484,
       "height": 300,
-      "sortOrder": 19
+      "sortOrder": 16
     },
     {
       "id": "terminal-blocks-instruments-p85-img01-terminal-blocks-instruments-2199x1124",
       "slug": "terminal-blocks-instruments-p85-img01-terminal-blocks-instruments-2199x1124",
       "categorySlug": "terminal-blocks-instruments",
       "categoryName": "Terminal Blocks & Instruments",
-      "name": "Terminal Blocks & Instruments 21",
+      "name": "Terminal Blocks & Instruments 18",
       "summary": "Terminal blocks, meters, timers, transducers, and measuring instruments.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/terminal_blocks_instruments/p85_img01_terminal_blocks_instruments_2199x1124.jpeg",
       "sourceFolder": "terminal_blocks_instruments",
@@ -3375,7 +3071,7 @@
       "imageNumber": 1,
       "width": 2199,
       "height": 1124,
-      "sortOrder": 20
+      "sortOrder": 17
     }
   ],
   "catalogPages": [
@@ -4166,7 +3862,7 @@
   ],
   "totals": {
     "categories": 11,
-    "products": 204,
+    "products": 185,
     "catalogPages": 98
   }
 }

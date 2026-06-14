@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, BadgeCheck, FileImage, Layers } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { AddToQuoteButton } from "@/components/AddToQuoteButton";
 import { ProductCard } from "@/components/ProductCard";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -75,33 +75,6 @@ export default async function ProductPage({ params }: ProductPageProps) {
                 </div>
 
                 <AddToQuoteButton product={product} />
-
-                <div className="grid gap-3 sm:grid-cols-3">
-                  <div className="rounded-lg border border-border bg-white p-4">
-                    <BadgeCheck className="text-accent" size={20} aria-hidden="true" />
-                    <p className="mt-3 text-sm font-bold text-primary">Quote only</p>
-                    <p className="mt-1 text-xs leading-5 text-steel">No public prices shown</p>
-                  </div>
-                  <div className="rounded-lg border border-border bg-white p-4">
-                    <Layers className="text-accent" size={20} aria-hidden="true" />
-                    <p className="mt-3 text-sm font-bold text-primary">Category</p>
-                    <p className="mt-1 text-xs leading-5 text-steel">{product.categoryName}</p>
-                  </div>
-                  <div className="rounded-lg border border-border bg-white p-4">
-                    <FileImage className="text-accent" size={20} aria-hidden="true" />
-                    <p className="mt-3 text-sm font-bold text-primary">Catalog source</p>
-                    <p className="mt-1 text-xs leading-5 text-steel">
-                      {product.sourcePage ? `Page ${product.sourcePage}` : "Imported image"}
-                    </p>
-                  </div>
-                </div>
-
-                <div className="rounded-lg border border-border bg-background p-5">
-                  <h2 className="text-lg font-black text-primary">How this item is quoted</h2>
-                  <p className="mt-2 text-sm leading-7 text-steel">
-                    Add the item to your quote list, set quantity and notes, then submit your contact details. One Way Solutions can confirm the exact model, specification, availability, and commercial terms directly.
-                  </p>
-                </div>
               </div>
             </div>
           </div>
