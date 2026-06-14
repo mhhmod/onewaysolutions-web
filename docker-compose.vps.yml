@@ -21,12 +21,12 @@ services:
       - "traefik.http.routers.onewaysolutions.rule=Host(`onewaysolutions-eg.com`) || Host(`www.onewaysolutions-eg.com`)"
       - "traefik.http.routers.onewaysolutions.entrypoints=websecure"
       - "traefik.http.routers.onewaysolutions.tls=true"
-      - "traefik.http.routers.onewaysolutions.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.onewaysolutions.tls.certresolver=mytlschallenge"
       - "traefik.http.routers.onewaysolutions.service=onewaysolutions"
       - "traefik.http.routers.onewaysolutions-admin.rule=Host(`admin.onewaysolutions-eg.com`)"
       - "traefik.http.routers.onewaysolutions-admin.entrypoints=websecure"
       - "traefik.http.routers.onewaysolutions-admin.tls=true"
-      - "traefik.http.routers.onewaysolutions-admin.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.onewaysolutions-admin.tls.certresolver=mytlschallenge"
       - "traefik.http.routers.onewaysolutions-admin.service=onewaysolutions"
 
 networks:
