@@ -115,7 +115,7 @@ export function AdminLoginForm() {
         type="button"
         onClick={handleReset}
         disabled={isBusy}
-        className="justify-self-start text-sm font-medium text-steel underline-offset-4 transition hover:text-primary hover:underline disabled:opacity-60"
+        className="inline-flex min-h-11 justify-self-start items-center rounded-md pr-3 text-sm font-medium text-steel underline-offset-4 transition hover:text-primary hover:underline disabled:opacity-60"
       >
         {status === "resetting" ? "Sending reset link..." : "Forgot password?"}
       </button>
