@@ -57,7 +57,10 @@ const excludedProductImages = new Set([
   "fire_fighting_cabinets/p25_img04_fire_fighting_cabinets_513x513.jpeg",
   "fire_fighting_cabinets/p25_img07_fire_fighting_cabinets_948x180.png",
   "fire_fighting_cabinets/p25_img08_fire_fighting_cabinets_730x409.jpeg",
-  "fire_fighting_cabinets/p27_img01_fire_fighting_cabinets_950x950.jpeg"
+  "fire_fighting_cabinets/p27_img01_fire_fighting_cabinets_950x950.jpeg",
+  "fire_fighting_cabinets/p27_img04_fire_fighting_cabinets_917x660.jpeg",
+  "fire_fighting_cabinets/p27_img05_fire_fighting_cabinets_565x752.jpeg",
+  "fire_fighting_cabinets/p30_img03_fire_fighting_cabinets_862x238.jpeg"
 ]);
 
 const imageExtensions = new Set([".jpg", ".jpeg", ".png", ".webp", ".gif"]);

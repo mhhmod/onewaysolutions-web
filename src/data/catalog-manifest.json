@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T23:12:19.269Z",
+  "generatedAt": "2026-06-15T10:39:36.811Z",
   "categories": [
     {
       "id": "brady-labels-marking",
@@ -48,7 +48,7 @@
       "name": "Fire Fighting Cabinets",
       "description": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p26_img03_fire_fighting_cabinets_1309x984.jpeg",
-      "productCount": 12,
+      "productCount": 9,
       "sortOrder": 4
     },
     {
@@ -1682,43 +1682,11 @@
       "sortOrder": 0
     },
     {
-      "id": "fire-fighting-cabinets-p27-img04-fire-fighting-cabinets-917x660",
-      "slug": "fire-fighting-cabinets-p27-img04-fire-fighting-cabinets-917x660",
-      "categorySlug": "fire-fighting-cabinets",
-      "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 02",
-      "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p27_img04_fire_fighting_cabinets_917x660.jpeg",
-      "sourceFolder": "fire_fighting_cabinets",
-      "sourceFilename": "p27_img04_fire_fighting_cabinets_917x660.jpeg",
-      "sourcePage": 27,
-      "imageNumber": 4,
-      "width": 917,
-      "height": 660,
-      "sortOrder": 1
-    },
-    {
-      "id": "fire-fighting-cabinets-p27-img05-fire-fighting-cabinets-565x752",
-      "slug": "fire-fighting-cabinets-p27-img05-fire-fighting-cabinets-565x752",
-      "categorySlug": "fire-fighting-cabinets",
-      "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 03",
-      "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p27_img05_fire_fighting_cabinets_565x752.jpeg",
-      "sourceFolder": "fire_fighting_cabinets",
-      "sourceFilename": "p27_img05_fire_fighting_cabinets_565x752.jpeg",
-      "sourcePage": 27,
-      "imageNumber": 5,
-      "width": 565,
-      "height": 752,
-      "sortOrder": 2
-    },
-    {
       "id": "fire-fighting-cabinets-p28-img03-fire-fighting-cabinets-898x843",
       "slug": "fire-fighting-cabinets-p28-img03-fire-fighting-cabinets-898x843",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 04",
+      "name": "Fire Fighting Cabinets 02",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p28_img03_fire_fighting_cabinets_898x843.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1727,14 +1695,14 @@
       "imageNumber": 3,
       "width": 898,
       "height": 843,
-      "sortOrder": 3
+      "sortOrder": 1
     },
     {
       "id": "fire-fighting-cabinets-p28-img04-fire-fighting-cabinets-513x835",
       "slug": "fire-fighting-cabinets-p28-img04-fire-fighting-cabinets-513x835",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 05",
+      "name": "Fire Fighting Cabinets 03",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p28_img04_fire_fighting_cabinets_513x835.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1743,14 +1711,14 @@
       "imageNumber": 4,
       "width": 513,
       "height": 835,
-      "sortOrder": 4
+      "sortOrder": 2
     },
     {
       "id": "fire-fighting-cabinets-p29-img03-fire-fighting-cabinets-732x456",
       "slug": "fire-fighting-cabinets-p29-img03-fire-fighting-cabinets-732x456",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 06",
+      "name": "Fire Fighting Cabinets 04",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p29_img03_fire_fighting_cabinets_732x456.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1759,14 +1727,14 @@
       "imageNumber": 3,
       "width": 732,
       "height": 456,
-      "sortOrder": 5
+      "sortOrder": 3
     },
     {
       "id": "fire-fighting-cabinets-p29-img04-fire-fighting-cabinets-731x697",
       "slug": "fire-fighting-cabinets-p29-img04-fire-fighting-cabinets-731x697",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 07",
+      "name": "Fire Fighting Cabinets 05",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p29_img04_fire_fighting_cabinets_731x697.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1775,30 +1743,14 @@
       "imageNumber": 4,
       "width": 731,
       "height": 697,
-      "sortOrder": 6
-    },
-    {
-      "id": "fire-fighting-cabinets-p30-img03-fire-fighting-cabinets-862x238",
-      "slug": "fire-fighting-cabinets-p30-img03-fire-fighting-cabinets-862x238",
-      "categorySlug": "fire-fighting-cabinets",
-      "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 08",
-      "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
-      "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p30_img03_fire_fighting_cabinets_862x238.jpeg",
-      "sourceFolder": "fire_fighting_cabinets",
-      "sourceFilename": "p30_img03_fire_fighting_cabinets_862x238.jpeg",
-      "sourcePage": 30,
-      "imageNumber": 3,
-      "width": 862,
-      "height": 238,
-      "sortOrder": 7
+      "sortOrder": 4
     },
     {
       "id": "fire-fighting-cabinets-p30-img06-fire-fighting-cabinets-748x275",
       "slug": "fire-fighting-cabinets-p30-img06-fire-fighting-cabinets-748x275",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 09",
+      "name": "Fire Fighting Cabinets 06",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p30_img06_fire_fighting_cabinets_748x275.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1807,14 +1759,14 @@
       "imageNumber": 6,
       "width": 748,
       "height": 275,
-      "sortOrder": 8
+      "sortOrder": 5
     },
     {
       "id": "fire-fighting-cabinets-p31-img03-fire-fighting-cabinets-2202x685",
       "slug": "fire-fighting-cabinets-p31-img03-fire-fighting-cabinets-2202x685",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 10",
+      "name": "Fire Fighting Cabinets 07",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p31_img03_fire_fighting_cabinets_2202x685.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1823,14 +1775,14 @@
       "imageNumber": 3,
       "width": 2202,
       "height": 685,
-      "sortOrder": 9
+      "sortOrder": 6
     },
     {
       "id": "fire-fighting-cabinets-p32-img04-fire-fighting-cabinets-518x406",
       "slug": "fire-fighting-cabinets-p32-img04-fire-fighting-cabinets-518x406",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 11",
+      "name": "Fire Fighting Cabinets 08",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p32_img04_fire_fighting_cabinets_518x406.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1839,14 +1791,14 @@
       "imageNumber": 4,
       "width": 518,
       "height": 406,
-      "sortOrder": 10
+      "sortOrder": 7
     },
     {
       "id": "fire-fighting-cabinets-p32-img10-fire-fighting-cabinets-500x500",
       "slug": "fire-fighting-cabinets-p32-img10-fire-fighting-cabinets-500x500",
       "categorySlug": "fire-fighting-cabinets",
       "categoryName": "Fire Fighting Cabinets",
-      "name": "Fire Fighting Cabinets 12",
+      "name": "Fire Fighting Cabinets 09",
       "summary": "Fire fighting cabinets, alarms, safety boxes, and fire system equipment references.",
       "imagePath": "/catalog/02_ecommerce_candidate_images/fire_fighting_cabinets/p32_img10_fire_fighting_cabinets_500x500.jpeg",
       "sourceFolder": "fire_fighting_cabinets",
@@ -1855,7 +1807,7 @@
       "imageNumber": 10,
       "width": 500,
       "height": 500,
-      "sortOrder": 11
+      "sortOrder": 8
     },
     {
       "id": "industrial-sockets-contactors-p86-img04-industrial-sockets-contactors-477x304",
@@ -3862,7 +3814,7 @@
   ],
   "totals": {
     "categories": 11,
-    "products": 185,
+    "products": 182,
     "catalogPages": 98
   }
 }

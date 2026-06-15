@@ -242,12 +242,12 @@ export function DataTable<T>({
             <div
               key={id}
               className={cn(
-                "rounded-lg border border-border bg-white p-4",
+                "min-w-0 overflow-hidden rounded-lg border border-border bg-white p-4",
                 selected && "border-accent/40 bg-accent/8"
               )}
             >
-              <div className="flex items-start justify-between gap-3">
-                <div className="flex min-w-0 items-start gap-3">
+              <div className="flex min-w-0 items-start justify-between gap-3">
+                <div className="flex min-w-0 flex-1 items-start gap-3">
                   {selection ? (
                     <input
                       type="checkbox"
@@ -257,7 +257,7 @@ export function DataTable<T>({
                       className="mt-1 h-4 w-4 shrink-0 cursor-pointer accent-accent"
                     />
                   ) : null}
-                  <div className="min-w-0">{primaryColumn.render(row)}</div>
+                  <div className="min-w-0 flex-1 overflow-hidden">{primaryColumn.render(row)}</div>
                 </div>
                 {rowActions ? <div className="flex shrink-0 gap-1">{rowActions(row)}</div> : null}
               </div>
@@ -265,11 +265,13 @@ export function DataTable<T>({
                 {columns
                   .filter((column) => column.key !== primaryColumn.key && !column.hideOnCard)
                   .map((column) => (
-                    <div key={column.key} className="flex items-center justify-between gap-3">
-                      <dt className="text-xs font-semibold uppercase tracking-[0.08em] text-steel">
+                    <div key={column.key} className="grid min-w-0 grid-cols-[minmax(0,1fr)_minmax(0,1fr)] items-center gap-3">
+                      <dt className="min-w-0 truncate text-xs font-semibold uppercase tracking-[0.08em] text-steel">
                         {column.header}
                       </dt>
-                      <dd className="text-end text-sm text-primary">{column.render(row)}</dd>
+                      <dd className="min-w-0 text-end text-sm text-primary [&>*]:min-w-0">
+                        {column.render(row)}
+                      </dd>
                     </div>
                   ))}
               </dl>
@@ -277,7 +279,7 @@ export function DataTable<T>({
                 <button
                   type="button"
                   onClick={() => onRowClick(row)}
-                  className="mt-3 w-full rounded-md border border-border bg-surface py-2 text-sm font-semibold text-primary transition hover:bg-muted"
+                  className="mt-3 min-h-11 w-full truncate rounded-md border border-border bg-surface px-3 py-2 text-sm font-semibold text-primary transition hover:bg-muted"
                 >
                   View details
                 </button>

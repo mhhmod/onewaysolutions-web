@@ -167,7 +167,7 @@ export function ProductsManager() {
       sortable: true,
       sortValue: (row) => row.name.toLowerCase(),
       render: (row) => (
-        <div className="flex items-center gap-3">
+        <div className="flex min-w-0 items-center gap-3">
           <div className="h-11 w-11 shrink-0 overflow-hidden rounded-md border border-border bg-white">
             {row.primaryImage ? (
               // eslint-disable-next-line @next/next/no-img-element
@@ -178,7 +178,7 @@ export function ProductsManager() {
               </div>
             )}
           </div>
-          <div className="min-w-0">
+          <div className="min-w-0 flex-1 overflow-hidden">
             <p className="truncate font-semibold text-primary">{row.name}</p>
             <p className="truncate text-xs text-steel">{row.slug}</p>
           </div>
