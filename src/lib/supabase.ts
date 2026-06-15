@@ -7,9 +7,7 @@ export const hasSupabaseConfig = Boolean(supabaseUrl && supabasePublishableKey);
 
 export function getSupabaseBrowserClient() {
   if (!supabaseUrl || !supabasePublishableKey) {
-    throw new Error(
-      "Missing NEXT_PUBLIC_SUPABASE_URL or NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY. Copy .env.example to .env.local and verify the values."
-    );
+    throw new Error("This feature is not configured.");
   }
 
   return createClient(supabaseUrl, supabasePublishableKey);

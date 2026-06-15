@@ -3,16 +3,20 @@ import { CategoryCard } from "@/components/CategoryCard";
 import { ProductCard } from "@/components/ProductCard";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { getCatalogTotals, getCategories, getProducts } from "@/lib/catalog";
+import { getCatalogTotals, getCategories, getProducts } from "@/lib/catalog-db";
 
 export const metadata = {
   title: "Catalog"
 };
 
-export default function ProductsPage() {
-  const categories = getCategories();
-  const products = getProducts();
-  const totals = getCatalogTotals();
+export const revalidate = 120;
+
+export default async function ProductsPage() {
+  const [categories, products, totals] = await Promise.all([
+    getCategories(),
+    getProducts(),
+    getCatalogTotals()
+  ]);
 
   return (
     <>

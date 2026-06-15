@@ -31,7 +31,7 @@ export function QuoteRequestPanel() {
     if (!hasSupabaseConfig) {
       setStatus("error");
       setMessage(
-        "Missing Supabase environment values. Create .env.local from .env.example, then restart the dev server."
+        "Quote submission is not available right now. Please try again later or contact us directly."
       );
       return;
     }
@@ -63,9 +63,9 @@ export function QuoteRequestPanel() {
       setMessage("Quote request sent. One Way Solutions will contact you with the next step.");
       clearQuote();
       form.reset();
-    } catch (error) {
+    } catch {
       setStatus("error");
-      setMessage(error instanceof Error ? error.message : "Could not submit the quote request.");
+      setMessage("We could not send your quote request. Please check your details and try again.");
     }
   }
 

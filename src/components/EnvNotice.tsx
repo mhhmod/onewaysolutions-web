@@ -8,8 +8,8 @@ export function EnvNotice({ mode }: { mode: "quote" | "admin" }) {
 
   const copy =
     mode === "quote"
-      ? "Quote submission is not connected yet because .env.local is missing the public Supabase URL and publishable key."
-      : "Admin login is not connected yet because .env.local is missing the public Supabase URL and publishable key.";
+      ? "Quote submission is not available right now. Please try again later or contact us directly."
+      : "Sign-in is not available right now. Please try again later.";
 
   return (
     <div className="flex gap-3 rounded-lg border border-warning/35 bg-warning/10 p-4 text-sm leading-6 text-primary">

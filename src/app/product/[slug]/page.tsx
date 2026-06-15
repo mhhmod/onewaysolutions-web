@@ -6,7 +6,7 @@ import { AddToQuoteButton } from "@/components/AddToQuoteButton";
 import { ProductCard } from "@/components/ProductCard";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { getProduct, getProducts, getRelatedProducts } from "@/lib/catalog";
+import { getProduct, getProducts, getRelatedProducts } from "@/lib/catalog-db";
 
 type ProductPageProps = {
   params: Promise<{
@@ -14,13 +14,17 @@ type ProductPageProps = {
   }>;
 };
 
-export function generateStaticParams() {
-  return getProducts().map((product) => ({ slug: product.slug }));
+export const revalidate = 120;
+export const dynamicParams = true;
+
+export async function generateStaticParams() {
+  const products = await getProducts();
+  return products.map((product) => ({ slug: product.slug }));
 }
 
 export async function generateMetadata({ params }: ProductPageProps) {
   const { slug } = await params;
-  const product = getProduct(slug);
+  const product = await getProduct(slug);
 
   return {
     title: product ? product.name : "Product"
@@ -29,13 +33,13 @@ export async function generateMetadata({ params }: ProductPageProps) {
 
 export default async function ProductPage({ params }: ProductPageProps) {
   const { slug } = await params;
-  const product = getProduct(slug);
+  const product = await getProduct(slug);
 
   if (!product) {
     notFound();
   }
 
-  const relatedProducts = getRelatedProducts(product);
+  const relatedProducts = await getRelatedProducts(product);
 
   return (
     <>

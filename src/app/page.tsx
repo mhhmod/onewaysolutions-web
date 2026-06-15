@@ -5,7 +5,8 @@ import { CategoryCard } from "@/components/CategoryCard";
 import { ProductCard } from "@/components/ProductCard";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { getCatalogPages, getCatalogTotals, getCategories, getFeaturedProducts } from "@/lib/catalog";
+import { getCatalogPages } from "@/lib/catalog";
+import { getCatalogTotals, getCategories, getFeaturedProducts } from "@/lib/catalog-db";
 
 const capabilities = [
   {
@@ -49,10 +50,14 @@ const heroTiles = [
   }
 ];
 
-export default function HomePage() {
-  const categories = getCategories();
-  const featuredProducts = getFeaturedProducts(8);
-  const totals = getCatalogTotals();
+export const revalidate = 120;
+
+export default async function HomePage() {
+  const [categories, featuredProducts, totals] = await Promise.all([
+    getCategories(),
+    getFeaturedProducts(8),
+    getCatalogTotals()
+  ]);
   const catalogPages = getCatalogPages().slice(5, 9);
 
   return (

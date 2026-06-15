@@ -4,7 +4,7 @@ import { ArrowLeft } from "lucide-react";
 import { ProductCard } from "@/components/ProductCard";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { getCategories, getCategory, getProductsByCategory } from "@/lib/catalog";
+import { getCategories, getCategory, getProductsByCategory } from "@/lib/catalog-db";
 
 type CategoryPageProps = {
   params: Promise<{
@@ -12,13 +12,17 @@ type CategoryPageProps = {
   }>;
 };
 
-export function generateStaticParams() {
-  return getCategories().map((category) => ({ category: category.slug }));
+export const revalidate = 120;
+export const dynamicParams = true;
+
+export async function generateStaticParams() {
+  const categories = await getCategories();
+  return categories.map((category) => ({ category: category.slug }));
 }
 
 export async function generateMetadata({ params }: CategoryPageProps) {
   const { category: categorySlug } = await params;
-  const category = getCategory(categorySlug);
+  const category = await getCategory(categorySlug);
 
   return {
     title: category ? category.name : "Category"
@@ -27,13 +31,13 @@ export async function generateMetadata({ params }: CategoryPageProps) {
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
   const { category: categorySlug } = await params;
-  const category = getCategory(categorySlug);
+  const category = await getCategory(categorySlug);
 
   if (!category) {
     notFound();
   }
 
-  const products = getProductsByCategory(category.slug);
+  const products = await getProductsByCategory(category.slug);
 
   return (
     <>

@@ -1,26 +1,24 @@
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import { AdminLoginForm } from "@/components/AdminLoginForm";
-import { EnvNotice } from "@/components/EnvNotice";
+import { AdminResetForm } from "@/components/AdminResetForm";
 
 export const metadata = {
-  title: "Admin Login"
+  title: "Reset password"
 };
 
-export default function AdminLoginPage() {
+export default function AdminResetPage() {
   return (
     <main className="min-h-[100svh] bg-background">
       <div className="container-shell grid min-h-[100svh] content-center gap-5 py-8">
         <Link
-          href={process.env.NEXT_PUBLIC_SITE_URL ?? "/"}
+          href="/admin/login"
           className="inline-flex min-h-11 w-fit items-center gap-2 rounded-md border border-border bg-surface px-4 text-sm font-semibold text-primary hover:bg-muted"
         >
           <ArrowLeft size={16} aria-hidden="true" />
-          Public site
+          Back to sign in
         </Link>
         <div className="mx-auto grid w-full max-w-md gap-4">
-          <EnvNotice mode="admin" />
-          <AdminLoginForm />
+          <AdminResetForm />
         </div>
       </div>
     </main>
