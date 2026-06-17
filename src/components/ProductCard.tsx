@@ -23,8 +23,8 @@ export function ProductCard({ product, showCategory = true }: ProductCardProps) 
   }
 
   return (
-    <article className="group grid overflow-hidden rounded-lg border border-border bg-surface shadow-sm transition hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-industrial">
-      <Link href={`/product/${product.slug}`} className="relative aspect-[4/3] bg-muted">
+    <article className="group grid h-full grid-rows-[auto_1fr] overflow-hidden rounded-lg border border-border bg-surface shadow-sm transition hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-industrial">
+      <Link href={`/product/${product.slug}`} className="relative aspect-[4/3] bg-white">
         <Image
           src={product.imagePath}
           alt={product.name}
@@ -33,36 +33,42 @@ export function ProductCard({ product, showCategory = true }: ProductCardProps) 
           className="object-contain p-3 transition duration-300 group-hover:scale-[1.03]"
         />
       </Link>
-      <div className="grid gap-4 p-4">
-        <div>
+      <div className="grid grid-rows-[1fr_auto] gap-3 p-4">
+        <div className="min-w-0">
           {showCategory ? (
             <p className="text-xs font-bold uppercase tracking-[0.14em] text-accent">
               {product.categoryName}
             </p>
           ) : null}
-          <h3 className={showCategory ? "mt-2 text-base font-bold leading-6 text-primary" : "text-base font-bold leading-6 text-primary"}>
-            <Link className="inline-flex min-h-8 items-start" href={`/product/${product.slug}`}>
+          <h3 className={showCategory ? "mt-2 line-clamp-2 text-base font-bold leading-6 text-primary" : "line-clamp-2 text-base font-bold leading-6 text-primary"}>
+            <Link className="inline-flex min-h-8 items-start underline-offset-4 hover:underline" href={`/product/${product.slug}`}>
               {product.name}
             </Link>
           </h3>
           <p className="mt-2 line-clamp-2 text-sm leading-6 text-steel">{product.summary}</p>
         </div>
-        <div className="grid grid-cols-[1fr_auto] gap-2">
+        <div className="grid grid-cols-2 gap-2 border-t border-border pt-3">
+          <Link
+            href={`/product/${product.slug}`}
+            className="inline-flex min-h-11 min-w-0 items-center justify-center gap-2 rounded-md bg-primary px-3 text-sm font-bold text-white transition hover:bg-primary/92"
+            aria-label={`View details for ${product.name}`}
+          >
+            <Eye size={16} aria-hidden="true" />
+            Details
+          </Link>
           <button
             type="button"
             onClick={handleAdd}
-            className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-primary px-3 text-sm font-bold text-white transition hover:bg-primary/92"
+            className={`inline-flex min-h-11 min-w-0 items-center justify-center gap-2 rounded-md border px-3 text-sm font-bold transition ${
+              added
+                ? "border-accent bg-accent text-white"
+                : "border-border bg-white text-primary hover:border-primary/30 hover:bg-muted"
+            }`}
+            aria-label={`Add to quote: ${product.name}`}
           >
             <Plus size={16} aria-hidden="true" />
-            {added ? "Added" : "Add to quote"}
+            {added ? "Added" : "Quote"}
           </button>
-          <Link
-            href={`/product/${product.slug}`}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-border bg-white text-primary transition hover:border-primary/30 hover:bg-muted"
-            aria-label={`View ${product.name}`}
-          >
-            <Eye size={17} aria-hidden="true" />
-          </Link>
         </div>
       </div>
     </article>
