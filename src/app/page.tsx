@@ -1,12 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Building2, FileText, ShieldCheck, Zap } from "lucide-react";
-import { CategoryCard } from "@/components/CategoryCard";
+import { CatalogGroupCard } from "@/components/CatalogGroupCard";
+import { CategoryShowcaseCard } from "@/components/CategoryShowcaseCard";
 import { ProductCard } from "@/components/ProductCard";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { getCatalogPages } from "@/lib/catalog";
 import { getCatalogTotals, getCategories, getFeaturedProducts } from "@/lib/catalog-db";
+import { buildCatalogGroups } from "@/lib/catalog-groups";
 
 const capabilities = [
   {
@@ -59,6 +61,9 @@ export default async function HomePage() {
     getCatalogTotals()
   ]);
   const catalogPages = getCatalogPages().slice(5, 9);
+  const catalogGroups = buildCatalogGroups(categories, featuredProducts);
+  const featuredGroup = catalogGroups[0];
+  const secondaryGroups = catalogGroups.slice(1);
 
   return (
     <>
@@ -140,8 +145,11 @@ export default async function HomePage() {
           <div className="container-shell">
             <div className="flex flex-wrap items-end justify-between gap-4">
               <div>
-                <p className="text-sm font-black uppercase tracking-[0.16em] text-accent">Catalog sections</p>
-                <h2 className="mt-2 text-3xl font-black text-primary md:text-5xl">Open product browsing</h2>
+                <p className="text-sm font-black uppercase tracking-[0.16em] text-accent">Catalog collections</p>
+                <h2 className="mt-2 text-3xl font-black text-primary md:text-5xl">Start with the right section</h2>
+                <p className="mt-3 max-w-2xl text-base leading-8 text-steel">
+                  Products are grouped by the way buyers search: power rooms, cable routes, safety work, and solar lighting.
+                </p>
               </div>
               <Link
                 href="/products"
@@ -150,9 +158,19 @@ export default async function HomePage() {
                 View all products
               </Link>
             </div>
-            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              {categories.slice(0, 8).map((category) => (
-                <CategoryCard key={category.slug} category={category} />
+            {featuredGroup ? (
+              <div className="mt-8">
+                <CatalogGroupCard group={featuredGroup} featured />
+              </div>
+            ) : null}
+            <div className="mt-4 grid gap-4 lg:grid-cols-3">
+              {secondaryGroups.map((group) => (
+                <CatalogGroupCard key={group.id} group={group} />
+              ))}
+            </div>
+            <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {categories.map((category) => (
+                <CategoryShowcaseCard key={category.slug} category={category} />
               ))}
             </div>
           </div>

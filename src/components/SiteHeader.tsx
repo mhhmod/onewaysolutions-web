@@ -1,21 +1,27 @@
 import Link from "next/link";
 import { Menu, Phone } from "lucide-react";
+import { CatalogMegaMenu, MobileCatalogLinks } from "@/components/CatalogMegaMenu";
 import { Logo } from "@/components/Logo";
 import { QuoteNavLink } from "@/components/QuoteNavLink";
+import { buildCatalogGroups } from "@/lib/catalog-groups";
+import { getCategories } from "@/lib/catalog-db";
 
 const nav = [
-  { href: "/products", label: "Catalog" },
   { href: "/#capabilities", label: "Capabilities" },
   { href: "/#projects", label: "Projects" },
   { href: "/#contact", label: "Contact" }
 ];
 
-export function SiteHeader() {
+export async function SiteHeader() {
+  const categories = await getCategories();
+  const groups = buildCatalogGroups(categories);
+
   return (
     <header className="sticky top-0 z-40 border-b border-border/80 bg-background/92 backdrop-blur">
       <div className="container-shell flex min-h-20 items-center justify-between gap-4">
         <Logo />
         <nav className="hidden items-center gap-1 md:flex" aria-label="Primary navigation">
+          <CatalogMegaMenu groups={groups} />
           {nav.map((item) => (
             <Link
               key={item.href}
@@ -43,9 +49,10 @@ export function SiteHeader() {
               <Menu size={20} aria-hidden="true" />
             </summary>
             <nav
-              className="absolute end-0 top-14 grid min-w-56 gap-1 rounded-lg border border-border bg-surface p-2 shadow-industrial"
+              className="absolute end-0 top-14 grid max-h-[calc(100dvh-6rem)] min-w-[min(84vw,360px)] gap-1 overflow-y-auto rounded-lg border border-border bg-surface p-2 shadow-industrial"
               aria-label="Mobile navigation"
             >
+              <MobileCatalogLinks groups={groups} />
               {nav.map((item) => (
                 <Link
                   key={item.href}

@@ -6,7 +6,8 @@ import { AddToQuoteButton } from "@/components/AddToQuoteButton";
 import { ProductCard } from "@/components/ProductCard";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { getProduct, getProducts, getRelatedProducts } from "@/lib/catalog-db";
+import { getCategories, getProduct, getProducts, getRelatedProducts } from "@/lib/catalog-db";
+import { buildCatalogGroups, findCatalogGroupForCategory } from "@/lib/catalog-groups";
 
 type ProductPageProps = {
   params: Promise<{
@@ -39,7 +40,12 @@ export default async function ProductPage({ params }: ProductPageProps) {
     notFound();
   }
 
-  const relatedProducts = await getRelatedProducts(product);
+  const [categories, relatedProducts] = await Promise.all([
+    getCategories(),
+    getRelatedProducts(product)
+  ]);
+  const catalogGroups = buildCatalogGroups(categories);
+  const currentGroup = findCatalogGroupForCategory(product.categorySlug, catalogGroups);
 
   return (
     <>
@@ -79,6 +85,25 @@ export default async function ProductPage({ params }: ProductPageProps) {
                 </div>
 
                 <AddToQuoteButton product={product} />
+
+                {currentGroup ? (
+                  <div className="rounded-lg border border-border bg-white p-5">
+                    <p className="text-sm font-bold text-accent">{currentGroup.title}</p>
+                    <h2 className="mt-1 text-xl font-black text-primary">Collection context</h2>
+                    <p className="mt-2 text-sm leading-6 text-steel">{currentGroup.summary}</p>
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      {currentGroup.categories.map((category) => (
+                        <Link
+                          key={category.slug}
+                          href={`/products/${category.slug}`}
+                          className="inline-flex min-h-10 items-center rounded-md border border-border bg-surface px-3 text-sm font-bold text-primary transition hover:border-primary/30 hover:bg-muted"
+                        >
+                          {category.name}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                ) : null}
               </div>
             </div>
           </div>
@@ -90,7 +115,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
               <h2 className="text-3xl font-black text-primary">Related items</h2>
               <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
                 {relatedProducts.map((related) => (
-                  <ProductCard key={related.slug} product={related} />
+                  <ProductCard key={related.slug} product={related} showCategory={false} />
                 ))}
               </div>
             </div>

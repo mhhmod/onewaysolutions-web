@@ -7,7 +7,12 @@ import { useState } from "react";
 import { useQuote } from "@/components/QuoteProvider";
 import type { Product } from "@/lib/types";
 
-export function ProductCard({ product }: { product: Product }) {
+type ProductCardProps = {
+  product: Product;
+  showCategory?: boolean;
+};
+
+export function ProductCard({ product, showCategory = true }: ProductCardProps) {
   const { addProduct } = useQuote();
   const [added, setAdded] = useState(false);
 
@@ -30,10 +35,12 @@ export function ProductCard({ product }: { product: Product }) {
       </Link>
       <div className="grid gap-4 p-4">
         <div>
-          <p className="text-xs font-bold uppercase tracking-[0.14em] text-accent">
-            {product.categoryName}
-          </p>
-          <h3 className="mt-2 text-base font-bold leading-6 text-primary">
+          {showCategory ? (
+            <p className="text-xs font-bold uppercase tracking-[0.14em] text-accent">
+              {product.categoryName}
+            </p>
+          ) : null}
+          <h3 className={showCategory ? "mt-2 text-base font-bold leading-6 text-primary" : "text-base font-bold leading-6 text-primary"}>
             <Link className="inline-flex min-h-8 items-start" href={`/product/${product.slug}`}>
               {product.name}
             </Link>
